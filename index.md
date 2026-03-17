@@ -107,7 +107,7 @@ Nota: En general las ayundantías son online, a excepción de que se coordine co
 ---
 ## Asistencia
 
-Para ver su asistencia dirijasé al siguiente [`[link]`](https://docs.google.com/spreadsheets/d/13qtu0yAMlowjeUMoUq33Q598Csn1ncsjYzsVEAmYwzw/edit?usp=sharing)
+Para ver su asistencia dirijasé al siguiente [`[link]`](https://docs.google.com/spreadsheets/d/1qsxzNVkld9Ovc4ruK24kT-pd_PA5DOyzVn93HTPKOXM/edit?usp=sharing)
 
 
 
