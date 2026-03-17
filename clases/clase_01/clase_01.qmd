@@ -68,7 +68,7 @@ El curso como una etnografía sobre el “mundo cuantitativo”:
 ## Conteste lo siguiente
 
 -   Ingrese a [Menti.com](https://www.menti.com)\
--   Código: **2328 7528**
+-   Código: **7155 0588**
 
 ![QR Mentimeter](clase_01_files/qr_code_1.png)
 
@@ -90,7 +90,7 @@ El curso como una etnografía sobre el “mundo cuantitativo”:
 
 -   Otras situaciones (laborales, de cuidados)se presentan con la debida anticipación a la Coordinación Académica.
 
-## Ayudantía y Tutorías {.smaller}
+## Ayudantía y Tutorías 
 
 -   **Asistencia en ayudantía:** De 7 ayudantías, se espera participación en al menos 3 para aprobar.
 
@@ -100,7 +100,7 @@ Disponibilidad de tutorías
 
 Gino: Viernes 16:00 a 19:00 (U. Alberto Hurtado) **Tutorías obligatorias trabajo final (16/06/2026)**
 
-## Uso de IA {.smaller}
+## Uso de IA 
 
 -   La carrera de Antropología de la Universidad Alberto Hurtado entiende el uso de la inteligencia artificial —ChatGPT, Bing, Gemini u otros— como una posible herramienta auxiliar en los procesos de aprendizaje, que en ningún caso puede reemplazar las labores y experiencias de investigación, análisis, reflexión y/o escritura por parte de los/as estudiantes.
 -   Si bien su uso podría ser un recurso útil en la formación profesional contemporánea, los y las docentes **se reservan el derecho a verificar que los productos académicos de los/as estudiantes que hagan uso de inteligencia artificial se correspondan con aprendizajes sustantivos.**
@@ -149,57 +149,189 @@ Gino: Viernes 16:00 a 19:00 (U. Alberto Hurtado) **Tutorías obligatorias trabaj
 
 # 03. Introducción ISCUAN {background-color="#4B0082"}
 
-## ¿Qué es la investigación social?
+## ¿Qué es la investigación?
 
 Según Hernández-Sampieri & Mendoza Torres (2019):
 
-> "Conjunto de procesos sistemáticos, críticos y empíricos que se aplican al estudio de un fenómeno o problema con el resultado (o el objetivo) de ampliar su conocimiento" 135\]
+> "Conjunto de procesos sistemáticos, críticos y empíricos que se aplican al estudio de un fenómeno o problema con el resultado (o el objetivo) de ampliar su conocimiento" [Hernández-Sampieri & Mendoza Torres (2019)]
 
--   **Metodología:** “Encadenamiento de decisiones controladas y razonadas”\
--   **Diseño metodológico:** “Forma de explicar y defender ese proceso”
 
-## ¿Qué es la investigación social cuantitiva?
+## ¿Qué diferencia el conocimiento producido de forma cotidiana al conocimiento producido por las ciencias sociales?
 
--   **Números:** Se vincula a conteos numéricos y métodos matemáticos (Niglas, 2010).\
+-   **Metodología** “Encadenamiento de decisiones controladas y razonadas”
+-   **Diseño metodológico** “Forma de explicar y defender ese proceso”
+
+## ¿Qué es la investigación social?
+
+![](clase_01_files/mapa_1.png){fig-align="center" width="100%"}
+---
+## ¿Qué aproximaciones a la realidad podemos sintetizar?
+
+
+-  **Histórica**: la importancia del tiempo y los procesos como elementos explicativos
+-  **Comparativa**: generalidad de fenómenos en contextos diferentes
+-  **Cuantitativa**: generalidad de experiencias
+-  **Cualitativa**: densidad de experiencias
+
+![](clase_01_files/met_patricio.jpg){fig-align="center" width="50%"}
+
+## ¿Qué es la investigación social cuantitiva? (1)
+
+-   **Números:** "quantitas" Se vincula a conteos numéricos y métodos matemáticos (Niglas, 2010).\
 -   **Secuencial:** Proceso organizado de manera secuencial para comprobar suposiciones.
 -   **"Objetividad":** Búsqueda, pretensión.\
 -   **Generalización:** Que los resultados puedan aplicarse a la población general.
 
-*(Aquí puedes insertar la imagen de las Fases del proceso cuantitativo)* `![Fases correlativas - Sampieri](ruta/imagen_fases.jpg)`
+ Hernández-Sampieri & Mendoza Torres (2019)
+
+## Fases correlativas de la investigación cuantitativa
+![](clase_01_files/fases_correlativas.png){fig-align="center" width="100%"}
+Hernández-Sampieri & Mendoza Torres (2019)
+
+
 
 ## Investigación Cuantitativa: ¿Estrategia o Paradigma?
 
-**a. Una estrategia (Asun, 2019)**\
+**a. Una estrategia **\
 Utiliza procedimientos estadísticos para resumir, manipular y asociar números asignados a magnitudes de sujetos de estudio.
+> “La investigación cuantitativa es una estrategia de investigación que conceptualmente delimita propiedades de sus sujetos de estudio con el fin de asignarles **números** a las magnitudes, grados o tipos en que estos las poseen y que utiliza procedimientos estadísticos para **resumir, manipular y asociar** dichos números”
+Asun (2019, p. 38)
 
-**b. Un paradigma (Cea, 1998)**\
-Defiende un único método general a todas las ciencias, con énfasis en la explicación, la contrastación empírica y la medición objetiva.
+**b. Un paradigma **\
+> “La perspectiva cientificista/cuantitativa defiende la existencia de un  único método (el de las ciencias naturales y exactas), general a todas  las ciencias; al igual que el principio de causalidad y la formulación de  leyes generales en el análisis de la realidad social. El énfasis se pone  en la explicación, en la contrastación empírica y en la medición  objetiva de los fenómenos sociales”
+(Cea, 1998)
+
+## ¿Qué es la investigación Cuantitativa?
+
+> Más que un PARADIGMA (modelo integral: base epistemológica, objetividad, generalización, recolección estructurada, legitimada por el capitalismo)
+Permite transformar constructos teóricos en **Unidades de Información (U/I)** medibles.
+(Asún, en Canales, 2006)
+
+Investigación Cuantitativa: utiliza *NÚMEROS*, mediante determinados procesos de: 
+
+- Medición: asigna números a sujetos
+- Codificación:  instrumentos que los producen: 
+   - Encuestas, cuantificar textos, utilizar datos secundarios
+- Análisis de información: Vínculo con estadística y grandes números
+- Formas de selección de sujetos: Muestreos (más o menos grandes)
+
+## PP: Señale 3 diferencias entre la perspectiva que considera a la Investigación Cuantitativa como una Estrategia de un Paradigma.
+
+
+## ¿Es compatible o no con la investigación cualitativa?
+
+- “QUALITAS”: referencia a la naturaleza, carácter y propiedades de los fenómenos (Niglas, 2010).
+- EMERGENTE Y CIRCULAR: es un rumbo, pero no un camino en línea recta
+- Problema, preguntas, recolección y análisis tienen mayor circularidad
+- HOLÍSTICO:  densidad de situación, casos
+- NATURALISTA: estudios en contextos, ambientes naturales
+- NO PRETENDE GENERALIZAR (Aunque sí comparar)
+- DATOS NARRATIVOS: simbólicos, significados, experiencias, puntos de vista, cualidades (observación de prácticas)
+
+## Fases de la investigación cualitativa
+
+![](clase_01_files/fases_cualitativa.png){fig-align="center" width="80%"}
+
+## PP: Señale 3 diferencias entre la investigación cuantitativa y la cualitativa, en términos de:
+
+- a) articulación de sus pasos 
+- b) tipos de datos que sirven de materia prima 
+- c) pretensión de generalización
 
 ## El camino mixto
 
--   Entrelazamiento cuantitativo y cualitativo, interacción y potenciación.\
--   Mezcla de datos: numéricos, verbales, textuales, visuales simbólicos, descripciones.\
--   Importancia fundamental de la **TRIANGULACIÓN**.
+- Entrelazamiento cuantitativo y cualitativo, interacción y potenciación
+- Mezcla de datos: numéricos, verbales, textuales, visuales simbólicos, descripciones
+- Diversas secuencias de implementación: 
+- Lo cualitativo primero, Lo cuantitativo primero o de forma paralela
+- Importancia de la **TRIANGULACIÓN**
 
-## ¿Qué es big data y ciencias de datos?
+## Caso I: Sebastián Muñoz (Investigación Postdoc)
 
--   Proliferación de datos por digitalización: redes sociales, celulares, escuchas de Spotify, etc.\
--   Las **3 V**: volumen, velocidad y variedad.\
--   Usualmente datos no estructurados.
+- Título: “Música, trabajo y digitalización. Las carreras artísticas de la “música urbana” como producción de subjetividad de la juventud urbano-popular del Santiago de Chile contemporáneo”.
 
-*(Acá puedes insertar la imagen de Black Mirror)* `![Blackmirror: Nosedive](ruta/blackmirror.png)`\
-\# 04. Propuestas de Investigación {background-color="#4B0082"}
+- Introducción: “Esta investigación buscará analizar la producción de subjetividad juvenil a través de las maneras en que los/as músicos/as urbanos de Santiago construyen, sostienen y proyectan sus carreras artísticas, ligado a los procesos de individualización y digitalización del Chile contemporáneo”
+
+- Objetivo General: Analizar la subjetividad juvenil del Santiago de Chile contemporáneo a través de las modalidades por las que los/as músicos/as urbanos construyen, sostienen y proyectan sus carreras artísticas, considerando las redes a las que se vinculan y sus maneras de elaborar una narrativa personal y colectiva.
+
+## METODOLOGÍA
+
+Estudio de casos múltiple con una metodología mixta de técnicas cualitativas y cuantitativas, integrando herramientas de extracción y análisis de datos digitales en: entrevistas (relatos de vida y en profundidad), análisis de contenido y de discurso (canciones, videoclips) y, finalmente, análisis de las plataformas digitales y de las redes sociales. 
+
+- Parte cualitativa: 
+    - Observación Participante
+    - Entrevista Semiestructurada
+    - Historias de vida
+    - Análisis de discurso: canciones, videos y redes sociales
+
+- Parte cuantitativa:
+    - Análisis de redes de recomendaciones en YouTube y colaboraciones (feats)
+    - Análisis de canciones: procesamiento de lenguaje natural, modelado de tópicos
+
+## ¿Qué es Big data? ¿Algoritmos?
+
+Disclaimer: Ciencias de Datos, humanidades digitales y ciencias sociales computacionales
+
+- Big Data, Aprendizaje automático, Ciencia de Datos
+    - Proliferación de datos por proceso de digitalización:
+            - redes sociales, tarjetas de crédito, teléfonos celulares, páginas web, GPS, relojes inteligentes, escuchas de Spotify
+
+     - Cualquier dispositivo conectado a internet
+     - Las 3 V:  volumen, velocidad y variedad
+     - Usualmente datos no estructurados
+
+## Blackmirror: Nosedive y "cuantificación de la vida social"
+:::: {layout-columns="[60, 40]"}
+::: {#first-column}
+![](clase_01_files/Imagen3.jpg)
+:::
+::: {#second-column}
+
+El poder se horizontaliza, porque todos pueden y deben calificarse entre sí. Existe un temor al poder que el otro tiene sobre uno a través de la puntuación. Por lo que cada uno hará lo debido, repetirá las buenas costumbres: mostrarse civilizado y respetuoso, atento, aunque íntimamente sienta lo contrario (Ierardo, 2018: 24).
+:::
+::::
+
+## Para finalizar…
+### ¿Existen dos paradigmas de investigación?  O ¿Son estrategias?
+### ¿Puede haber una investigación cuantitativa pluralista?
+
+- Aunque este ordenamiento se sustenta en historia de la ciencias sociales, hoy está siendo redefinido.
+- En este contexto, la definición estratégica o técnica de la metodología cuantitativa y cualitativa está ganando peso en comparación con la definición paradigmática
+- Influye en esto la multiplicación de paradigmas de investigación (positivista, constructivista, postmodernista, feminista, teoría crítica, realismo crítico, sistémico, entre otros). La metodología cuantitativa o cualitativa deja de estar asociado a “un” paradigma en particular.
+- El nuevo contexto de generación de datos y su procesamiento (Ciencia de datos, humanidades digitales, ciencias sociales computacionales)
+
+## Encuesta 2
+
+Estrategia/Paradigma
+
+![](clase_01_files/qr_code_2.png)
+
+
+# 04. Propuestas de Investigación {background-color="#4B0082"}
+
+## Avances Próximas clases
+
+Conocimiento acumulativo
+
+![](clase_01_files/avances.png)
 
 ## Temas de interés
 
--   Ingrese a [Menti.com](https://www.menti.com)\
--   Código: **8456 2780**
+![](clase_01_files/qr_code_3.png)
 
-*(Acá puedes insertar la imagen del segundo QR de Mentimeter)* `![QR Mentimeter 2](ruta/tu_imagen_qr_2.png)`
 
-## Tarea I
+## Para finalizar…. Ahora si
 
-Grupos de 6 personas: conversen sobre algunas ideas en común para investigar que tengan encuestas asociadas. Deben ser posibles de realizar por jóvenes universitarios.
+¿Cómo estudiar estos temas de forma cuantitativa?
 
--   Defina los grupos.
--   Traiga **2 ideas de investigación** por grupo.
+Grupos de 6 personas: conversen sobre algunas ideas en común para investigar que tengan encuestas asociadas. 
+
+- **Posibles de ser realizadas por jóvenes universitarios**.
+
+
+# Definir: horario de ayundantías! {background-color="#4B0082"}
+
+## Tarea
+
+- Definan los grupos (5 o 6 integrantes)
+- Traer 2 ideas de investigación por grupo
