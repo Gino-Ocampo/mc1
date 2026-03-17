@@ -97,9 +97,9 @@ Nota: En general las ayundantías son online, a excepción de que se coordine co
 |----|-------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | 19-03-2026  | Tarea 1: Defina su grupo y traiga dos temas de investigación por grupo                                                                     | [Llenar](https://docs.google.com/document/d/1pzb7SxNylHTOBGxFlS3UGeIbg9CiSH5hJAcYj3L-r4s/edit)                                  |
 | 2  | 02-04-2026  | Tarea 2:Seleccionar idea final, problematizar y generar: pregunta, objetivos, hipótesis y relevancia +  Tener instalado R y desarrollar tarea | [Llenar](https://docs.google.com/document/d/1pzb7SxNylHTOBGxFlS3UGeIbg9CiSH5hJAcYj3L-r4s/edit)                                  |
-| 3  | 02-04-2026  | Tarea 3: Hacer 2 fichas bibliográficas por persona                                                                                             |  enviar por TEAMS y a: semunoz@uahurtado.cl|
+| 3  | 02-04-2026  | Tarea 3: Hacer 2 fichas bibliográficas por persona                                                                                             |  enviar a: ginowrs@gmail.com|
 | 4  | 23-04-2026  | Tarea 4: Especificar Marco Teórico y Marco Metodológico: estrategia metodológica, objetivos, supuestos de experimentación                  | [Llenar](https://docs.google.com/document/d/1pzb7SxNylHTOBGxFlS3UGeIbg9CiSH5hJAcYj3L-r4s/edit)                                  |
-| 5  | 30-04-2026  | Tarea 5: Traer preguntas de cuestionario y digitalizarlas en Google Forms                                                                  |         enviar por TEAMS y a: semunoz@uahurtado.cl                         |
+| 5  | 30-04-2026  | Tarea 5: Traer preguntas de cuestionario y digitalizarlas en Google Forms                                                                  |         enviar a ginowrs@gmail.com                         |
 
 
 
