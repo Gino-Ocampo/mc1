@@ -122,42 +122,42 @@ Recuerde puede faltar a 8 bloques! y debe ir a al menos a 3 Ayudantías!
 
 | Grupo | Tema                                | Nombre                                  |
 |-------|-------------------------------------|-----------------------------------------|
-| 1     | Prácticas Musicales                 | BUSTAMANTE MUÑOZ, ANTONIA MARÍA         |
-|       |                                     | DÍAZ RODRÍGUEZ, JAVIER IGNACIO          |
-|       |                                     | FREDES MORA, FERNANDA IGNACIA           |
-|       |                                     | JORQUERA GUTIÉRREZ, CARLA ANDREA        |
-|       |                                     | PALMA ACEVEDO, FRANCISCA ANTONIA        |
-|       |                                     | SALAZAR ACEVEDO, NAZARETH VARINIA       |
-| 2     | Prácticas de autocuidado sexual     | ARAYA RIVERA, FRANCISCA JESÚS           |
-|       |                                     | LA RIVERA VARAS, ISIDORA ANTONIA        |
-|       |                                     | MUÑOZ MARCHANT, MARTINA IGNACIA         |
-|       |                                     | NAVARRO NÚÑEZ, CAMILA CONSTANZA         |
-|       |                                     | RAMOS RAMOS, AMELIA                     |
-|       |                                     | SARRO POLONI, CRISTINA ESPERANZA        |
-| 3     | Satisfacción con docentes carrera   | CATEJO GONZÁLEZ, TOMÁS IGNACIO          |
-|       |                                     | EMILIA ANGÉLICA, FIS ESTRADA            |
-|       |                                     | FARÍAS NAVARRO, DANIELA MABEL           |
-|       |                                     | LAGOS BUSTOS, NINON FRANCISCA           |
-|       |                                     | SÁNCHEZ TORO, ALAN JESÚS                |
-|       |                                     | VALENZUELA GONZÁLEZ, VICENTE IGNACIO    |
-| 4     | Hábitos de estudio y rendimiento    | DURÁN ESCUTI, JAVIERA MARCELA           |
-|       |                                     | GAMBOA GAJARDO, CONSTANZA MONSERRATT    |
-|       |                                     | GONZÁLEZ VALENZUELA, CARLA JAVIERA      |
-|       |                                     | GUILLERMO ANDRÉS, REYES AGUIRRE         |
-|       |                                     | LLANOS FLORES, LUKAS BENJAMÍN           |
-|       |                                     | VALLE CASTILLO, BENJAMÍN ANTONIO        |
-| 5     | Victimización y delincuencia        | CAMPOS MAYANÉS, RAPHAEL IGNACIO         |
-|       |                                     | CANALA-ECHEVARRIA BELTRÁN, AMILCAR MARTÍN |
-|       |                                     | CASTRO MUÑOZ, CATALINA CONSTANZA        |
-|       |                                     | KIESSLING KIESSLING, JUAN SEBASTIAN     |
-|       |                                     | MANCILLA MARTÍNEZ, JONATHAN GABRIEL     |
-|       |                                     | NUÑEZ VARELA, JOSEFINA IGNACIA          |
-| 6     | Uso de redes sociales y Estrés      | ALLENDE ÁLVAREZ, CATALINA CONSTANZA     |
-|       |                                     | HUINCACHE MORALES, BELÉN ANAIZ          |
-|       |                                     | HUINEO CABEZA, LLACOLÉN PENÉLOPE        |
-|       |                                     | LEIVA VALDERRAMA, ANTONIA SOFÍA         |
-|       |                                     | SALAZAR BRAVO, RICARDO IGNACIO          |
-|       |                                     | VERDUGO MONARDES, VALERIA ALEJANDRA     |
+| 1     |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+| 2     |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+| 3     |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+| 4     |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+| 5     |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+| 6     |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
 
 
 
@@ -168,10 +168,10 @@ Recuerde puede faltar a 8 bloques! y debe ir a al menos a 3 Ayudantías!
 
 | Tipo  | Tema                               | Material | 
 |-------|------------------------------------|----------|
-| Ficha | Ejemplo 1                          |   [`1`](https://sebastianmunozt.github.io/metodoscuanti1/files/Trabajos/ejficha1.docx)| 
-| Ficha | Ejemplo 2                          | [`2`](https://sebastianmunozt.github.io/metodoscuanti1/files/Trabajos/ejficha2.docx) | 
-| Ficha | Ejemplo 3                          | [`3`](https://sebastianmunozt.github.io/metodoscuanti1/files/Trabajos/ejficha3.docx) | 
-| Trabajo curso 1 | Salud                         | [`4`](https://sebastianmunozt.github.io/metodoscuanti1/files/Trabajos/ejtfinal.docx) | 
+| Ficha | Ejemplo 1                          |   [`1`](https://https://gino-ocampo.github.io/mc1/files/Trabajos/ejficha1.docx)| 
+| Ficha | Ejemplo 2                          | [`2`](https://https://gino-ocampo.github.io/mc1//files/Trabajos/ejficha2.docx) | 
+| Ficha | Ejemplo 3                          | [`3`](https://https://gino-ocampo.github.io/mc1//files/Trabajos/ejficha3.docx) | 
+| Trabajo curso 1 | Salud                         | [`4`](https://https://gino-ocampo.github.io/mc1//files/Trabajos/ejtfinal.docx) | 
 | Trabajo final del curso | Directores proyecto     | [`[link]`](https://uahurtadocl.sharepoint.com/sites/Section_22411893031/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F22411893031%2FStudent%20Work%2FSubmitted%20files%2FJOAQU%C3%8DN%20IGNACIO%20ORELLANA%20MILLAR%2FTrabajo%20Final%2FVE%20Project%201%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E9d47eaac%2D5071%2D4861%2Db3b2%2D3c27ed7fb987) | 
 
 

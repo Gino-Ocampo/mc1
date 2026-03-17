@@ -197,9 +197,9 @@ Defiende un único método general a todas las ciencias, con énfasis en la expl
 
 *(Acá puedes insertar la imagen del segundo QR de Mentimeter)* `![QR Mentimeter 2](ruta/tu_imagen_qr_2.png)`
 
-## Tarea Final
+## Tarea I
 
-Grupos de 6 personas: conversen sobre algunas ideas en común para investigar que tengan encuestas asociadas. 254\] Deben ser posibles de realizar por jóvenes universitarios.
+Grupos de 6 personas: conversen sobre algunas ideas en común para investigar que tengan encuestas asociadas. Deben ser posibles de realizar por jóvenes universitarios.
 
--   Defina los grupos.\
+-   Defina los grupos.
 -   Traiga **2 ideas de investigación** por grupo.
