@@ -70,12 +70,13 @@ Nota: En general las ayundantías son online, a excepción de que se coordine co
 
 | n°   | Fecha       | Contenido                                                                      | Material   |
 |------|-------------|-------------------------------------------------------------------------------|------------|
-| 2,5  | 26-03-2026  | Ayudantía 1: Gestión del tiempo en la vida académica: GTD, MT, Pomodoro y Calendario | [`PPT`](https://gino-ocampo.github.io/mc1/ayudantias/ayudantia_01/presentacion#1) · [`Materiales`](https://gino-ocampo.github.io/mc1/ayudantias/ayudantia_01/materiales/materiales.rar) · [`Bibliografía`](https://gino-ocampo.github.io/mc1/ayudantias/ayudantia_01/bibliografia/bibliografia.rar) · [`Ver`](https://youtu.be/nIHVN8NFBnk)|
-| 3,5  | 02-04-2026  | Ayudantía 2: Tener instalado R; Ingresar valores, creación de vectores y tablas: R, RStudio, Rtools | Pendiente  |
-| 5,5  | 09-04-2026  | Ayudantía 4: Proyectos, funciones, manejo de base de datos                      | Pendiente  |
-| 9,5  | 07-05-2026  | Ayudantía 5: Zotero, Proceso de operacionalización y escritura académica         | [`Ayudantia zotero`](https://gino-ocampo.github.io/mc1/ayudantias/ayudantia_zotero/ayudantia_zotero.pptx)  |
-| 10,5 | 14-05-2026  | Ayudantía 6: Tidyverse                                                         | Pendiente  |
-| 11,5 | 28-11-2026  | Ayudantía 7: Ayudantía Prueba II                                                            | Pendiente  |
+| 1  | 26-03-2026  | Proceso de investigación y búsqueda bibliográfica | Pendiente |
+| 2  | 02-04-2026  | Introducción a RStudio y BBDD | Pendiente  |
+| 3  | 09-04-2026  | RStudio: proyectos, paquetes, funciones, objetos y Repaso general investigación | Pendiente  |
+| 4  | 07-05-2026  | Marco teórico y metodológico, Operacionalización, Índices y escalas, Encuestas | Pendiente  |
+| 5 | 14-05-2026  | RStudio: Tidyverse y ggplot | Pendiente  |
+| 6 | 28-11-2026  | Repaso contenidos prueba II y resolución dudas | Pendiente  |
+| 7 | 18-11-2026  | Repaso análisis de datos y abordaje instrucciones entrega final | Pendiente  |
 
 
 ---
