@@ -18,7 +18,7 @@ A continuación, podrán descargar el programa y programación del curso.
 
 Programa: [`[Programa]`](https://gino-ocampo.github.io/mc1/files/5_5 Métodos Cuantitativos I.pdf) 
 
-Programación: [`[Programación]`](https://gino-ocampo.github.io/mc1/files/programacion_2024.pdf) 
+Programación: [`[Programación]`](https://docs.google.com/spreadsheets/d/15eNM57Jhn7VSAj884CMuQaW8sEU5udugAYhq2AWubY4/edit?usp=sharing )
 
 
 ![useR](files/curso_mc2.png)
