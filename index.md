@@ -1,4 +1,4 @@
-![Banner](files/METODOS CUANTITATIVOS i.png)
+![Banner](files/mc_1.png)
 ### Bienvenidxs al curso de Métodos Cuantitativos I de la carrera de Antropología en la Universidad Alberto Hurtado.
 
 
@@ -16,7 +16,7 @@
 
 A continuación, podrán descargar el programa y programación del curso.
 
-Programa: [`[Programa]`](https://gino-ocampo.github.io/mc1/files/5_5 Métodos Cuantitativos I.pdf) 
+Programa: [`[Programa]`](https://gino-ocampo.github.io/mc1/files/metodos_cuantitativos_i.pdf) 
 
 Programación: [`[Programación]`](https://docs.google.com/spreadsheets/d/15eNM57Jhn7VSAj884CMuQaW8sEU5udugAYhq2AWubY4/edit?usp=sharing )
 
