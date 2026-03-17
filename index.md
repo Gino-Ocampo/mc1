@@ -37,7 +37,7 @@ Nota: Todas las clases son presenciales, a continuación pueden ver las presenta
 
 | n° Clase| Fecha              | Contenido                                                                                                           | Material                                                                                                                                                                |
 |------|--------------------|---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1    | 17-03-2026          | Presentación curso, acuerdos e introducción a ISCUAN                                                                | [`Clase1`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_01/clase_01.pptx) · [`Podcast`](https://open.spotify.com/episode/1wfPRgAwDE8cuL6QEbFpoD?si=acab1ae7d486474a)                          |
+| 1    | 17-03-2026          | Presentación curso, acuerdos e introducción a ISCUAN                                                                | [`Clase1`](https://gino-ocampo.github.io/mc1/clases/clase_01/clase_01.html) · [`Podcast`](https://open.spotify.com/episode/1wfPRgAwDE8cuL6QEbFpoD?si=acab1ae7d486474a)                          |
 | 2    | 24-03-2026          | Diseño cuantitativo e Ideas de investigación                                                                                                | [`Clase2`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_02/clase_02.pptx) · [`Podcast`](https://open.spotify.com/episode/14Fv1pq5NHGezr7f5JtnXN?si=d9dd1d6e9bc9401d)                         |
 | 3    | ONLINE - Vía Cápsula| R: Introducción y RStudio                                                                                           | [`Clase3`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_03/clase_3#1) · [`.R`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_03/clase_3.R) · [`Ver`](https://www.youtube.com/playlist?list=PLt-P_DkeQXb9v5mrDk8U9C3IEPoA-XbZ7) · [`Podcast`](https://open.spotify.com/episode/1YISa3Lbc1F7UxUItiLGAr?si=e829fcda981b4920) |
 | 4    | 31-03-2026          | Problematización y búsqueda bibliográfica                                                                           | [`Clase4`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_04/clase_04.pptx) · [`Podcast`](https://open.spotify.com/episode/66CaugyJfKRXr3IXLE6aPF?si=a93bdb197ed24e7e)                        |
@@ -168,10 +168,10 @@ Recuerde puede faltar a 8 bloques! y debe ir a al menos a 3 Ayudantías!
 
 | Tipo  | Tema                               | Material | 
 |-------|------------------------------------|----------|
-| Ficha | Ejemplo 1                          |   [`1`](https://https://gino-ocampo.github.io/mc1/files/Trabajos/ejficha1.docx)| 
-| Ficha | Ejemplo 2                          | [`2`](https://https://gino-ocampo.github.io/mc1//files/Trabajos/ejficha2.docx) | 
-| Ficha | Ejemplo 3                          | [`3`](https://https://gino-ocampo.github.io/mc1//files/Trabajos/ejficha3.docx) | 
-| Trabajo curso 1 | Salud                         | [`4`](https://https://gino-ocampo.github.io/mc1//files/Trabajos/ejtfinal.docx) | 
+| Ficha | Ejemplo 1                          |   [`1`](https://gino-ocampo.github.io/mc1/files/Trabajos/ejficha1.docx)| 
+| Ficha | Ejemplo 2                          | [`2`](https://gino-ocampo.github.io/mc1//files/Trabajos/ejficha2.docx) | 
+| Ficha | Ejemplo 3                          | [`3`](https://gino-ocampo.github.io/mc1//files/Trabajos/ejficha3.docx) | 
+| Trabajo curso 1 | Salud                         | [`4`](https://gino-ocampo.github.io/mc1//files/Trabajos/ejtfinal.docx) | 
 | Trabajo final del curso | Directores proyecto     | [`[link]`](https://uahurtadocl.sharepoint.com/sites/Section_22411893031/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F22411893031%2FStudent%20Work%2FSubmitted%20files%2FJOAQU%C3%8DN%20IGNACIO%20ORELLANA%20MILLAR%2FTrabajo%20Final%2FVE%20Project%201%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E9d47eaac%2D5071%2D4861%2Db3b2%2D3c27ed7fb987) | 
 
 
