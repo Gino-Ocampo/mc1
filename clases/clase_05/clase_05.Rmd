@@ -1,6 +1,6 @@
 ---
 title: "Clase 5"
-author: "Sebastián Muñoz"
+author: "Gino Ocampo & Sebastián Muñoz"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:

@@ -1,7 +1,7 @@
 ---
 title: "Clase 3"
 subtitle: "`r Sys.Date()`"
-author: "Sebastián Muñoz"
+author: "Gino Ocampo"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
