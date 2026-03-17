@@ -70,7 +70,7 @@ El curso como una etnografía sobre el “mundo cuantitativo”:
 -   Ingrese a [Menti.com](https://www.menti.com)\
 -   Código: **2328 7528**
 
-*(Acá puedes insertar la imagen del QR de Mentimeter)* `![QR Mentimeter](ruta/tu_imagen_qr.png)`
+![QR Mentimeter](clase_01_files/qr_code_1.png)
 
 # 02. Acuerdos básicos y programación {background-color="#4B0082"}
 
