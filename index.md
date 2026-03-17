@@ -80,6 +80,13 @@ Nota: En general las ayundantías son online, a excepción de que se coordine co
 
 ---
 
+### Horarios ayudantías
+
+- Aquí puedes votar por el horario de ayudantía que más te acomode [`[Forms]`](https://docs.google.com/forms/d/e/1FAIpQLSfpoReQE0C0GOog4_ClBoYK7rpViSOoIaWDLetdwuRccnIx1A/viewform?usp=sharing&ouid=107472191361985780533)
+
+
+---
+
 ### Sugerencias y Comentarios Clases, Ayudantías y Evaluaciones
 
 - Aquí, en el siguiente [`[Forms]`](https://forms.gle/VCG7cmr5cr7tryAC7) pueden dejar sus críticas, comentarios o sugerencias. En lo posible que sean  constructivas para que podamos ir mejorando. 
