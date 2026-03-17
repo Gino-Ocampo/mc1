@@ -70,7 +70,7 @@ Nota: En general las ayundantías son online, a excepción de que se coordine co
 
 | n°   | Fecha       | Contenido                                                                      | Material   |
 |------|-------------|-------------------------------------------------------------------------------|------------|
-| 1  | 26-03-2026  | Proceso de investigación y búsqueda bibliográfica | Pendiente |
+| 1  | 26-03-2026  | Metodología cuantitativa y proceso de investigación | Pendiente |
 | 2  | 02-04-2026  | Introducción a RStudio y BBDD | Pendiente  |
 | 3  | 09-04-2026  | RStudio: proyectos, paquetes, funciones, objetos y Repaso general investigación | Pendiente  |
 | 4  | 07-05-2026  | Marco teórico y metodológico, Operacionalización, Índices y escalas, Encuestas | Pendiente  |
