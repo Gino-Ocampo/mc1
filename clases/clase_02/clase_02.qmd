@@ -322,16 +322,35 @@ III. Especificación de la **metodología**:  *¿Cómo se quiere investigar?*
 
 ## Etapas del diseño de investigación
 
-![](clase_02_files/Imagen10.png){fig-align="center"} 
+- Título: *qué*
+- Objetivos: *para qué*
+- Pregunta de investigación: *qué quiero saber*
+- Justificación: *por qué y para quién*
+- Estado del arte: *Otros dijeron que*
+- Marco Teórico: *Con qué*
+- Metodología: *cómo*
+- Hipótesis: *yo creo que*
+- Conclusiones: *yo tenía razón porque*
+- Referencias: *donde otros dijeron que*
+
+# 
   
 ![](clase_02_files/Imagen11.png){fig-align="center"}  
+
+# 
+
 ![](clase_02_files/Imagen12.png){fig-align="center"}  
 
+#
+
 ![](clase_02_files/Imagen14.png){fig-align="center"}  
+
 ## El problema y la pregunta
 
 ![](clase_02_files/problema.jpg){fig-align="left"}  
+
 ![](clase_02_files/pregunta.jpg){fig-align="right"}  
+
 ## Terror in Resonance                                               
 
 - Terror en Tokio (*Zankyou no Terror* o *Terror in Resonance*) es una serie de anime que gira en torno a dos jóvenes, llamados Nine y Twelve, quienes se presentan como los terroristas responsables de una serie de ataques en Tokio. 
@@ -378,5 +397,73 @@ III. Especificación de la **metodología**:  *¿Cómo se quiere investigar?*
 
 - Con problemas de acceso
 
+## Ejemplos de preguntas de investigación que sí pueden ser estudiadas empíricamente:
+
+- *¿Qué representaciones tienen sobre la “política” los estudiantes secundarios de la Región de Valparaíso en la actualidad?*
+
+- *¿Cuál es la relación entre el ‘nivel de interés en la política’ y el ‘nivel de educación’ de los chilenos y chilenas mayores de 18 años en la actualidad?*
+
+tienen: 
+
+- un concepto-problema 
+
+- un sujeto claro 
+
+- en un espacio y tiempo definido
+
+## Ejemplos de preguntas de investigación que sí pueden ser respondidas mediante 
+una estrategia de investigación cuantitativa:
+
+- *¿Cómo es la relación entre el ‘nivel de consumo cultural’ y el ‘nivel de educación’ de los chilenos y chilenas mayores de 18 años en la actualidad?*
+
+- *¿Cuál es la asociación entre ‘deserción escolar’ y ‘nivel socioeconómico’ de los y las adolescentes entre 12 y 15 años de la comuna de Recoleta?*
+
+- *¿Cómo influye el ‘género’ , el ‘nivel socioeconómico’ y el ‘nivel educacional’ sobre la ‘participación política’ de los estudiantes secundarios de la Región de Valparaíso?*
+
+# 
+
+![](clase_02_files/Imagen4.jpg)
+
+# 05. Taller {background-color="#4B0082"}
+
+## Revisión de ideas de investigación del curso
+
+Definir un tema en conjunto por grupo y contestar: 
+
+- ¿Por qué es interesante para mi/nosotros?
+- ¿Por qué podría ser interesante e importante para otros?
+- ¿Contribuye a mi campo de estudio, mi institución, nuestros compañeros/as?
+- ¿Se puede abordar de manera cuantitativa?
+
+<https://docs.google.com/document/d/1rnPj4Ws0fRB7pyEr_-ZLg1mCBndi91PmgaAHhzh4Feg/edit?usp=sharing>
+
+## Formulación de pregunta
+
+Partiendo de las Ideas  Formulemos nuestra pregunta de investigación!
+
+## De las ideas a las preguntas
+
+De las ideas de investigación elaboré una pregunta qué esté bien formulada (no sea tan amplia (que la haga imposible de responder), ni demasiado específica (que sea irrelevante)) y otra que esté mal formulada.
+
+En la/s pregunta/s defina: 
+Objeto de estudio: ¿Qué?
+Conceptos y/o variables: ¿De qué forma lo trataré?
+Sujetos: ¿A quiénes?
+Tiempo: ¿Cuándo?
+Espacio: ¿Dónde?
 
 
+## De las ideas a las preguntas
+
+![](clase_02_files/Imagen5.jpg){fig-align="left"} 
+![](clase_02_files/Imagen6.jpg){fig-align="right"} 
+ 
+## Tarea
+
+A partir de lo conversado y pasado en el curso
+Redefinir idea:
+
+  - ¿Por qué es interesante para mi/nosotros?
+  - ¿Por qué podría ser interesante e importante para otros?
+  - ¿Contribuye a mi campo de estudio, mi institución, nuestros compañeros/as?
+  - ¿Se puede hacer de forma cuantitativa?
