@@ -117,7 +117,19 @@ La verdad es que yo no creo adscribir a ese modelo epistemológico (las crítica
 
 
 ![](clase_02_files/plebiscito.png){fig-align="center"}
+
+## Resultado
+
 ![](clase_02_files/plebiscito_2.png){fig-align="center"}
+
+#
+
+![](clase_02_files/cristalizacion.png){fig-align="center"}
+
+# Resultado
+
+![](clase_02_files/cristalizacion2.png){fig-align="center"}
+
 # 02. Numerización y medición de la realidad social {background-color="#4B0082"}
 
 ## Objetivos de la sesión
@@ -297,10 +309,13 @@ De lo vago/confuso a lo específico que es investigable
 
 I. Especificación de la **pregunta de investigación**: *¿Qué se quiere conocer específicamente?* (delimitar)
 
-    - Introducción
-    - Planteamiento del problema y pregunta de investigación
-    - Objetivos de la investigación
-    - Relevancias
+- Introducción
+  
+- Planteamiento del problema y pregunta de investigación
+
+- Objetivos de la investigación
+
+- Relevancias
 
 ## Etapas del diseño de investigación
 
@@ -446,11 +461,12 @@ Partiendo de las Ideas  Formulemos nuestra pregunta de investigación!
 De las ideas de investigación elaboré una pregunta qué esté bien formulada (no sea tan amplia (que la haga imposible de responder), ni demasiado específica (que sea irrelevante)) y otra que esté mal formulada.
 
 En la/s pregunta/s defina: 
-Objeto de estudio: ¿Qué?
-Conceptos y/o variables: ¿De qué forma lo trataré?
-Sujetos: ¿A quiénes?
-Tiempo: ¿Cuándo?
-Espacio: ¿Dónde?
+
+- Objeto de estudio: *¿Qué?*
+- Conceptos y/o variables: *¿De qué forma lo trataré?*
+- Sujetos: *¿A quiénes?*
+- Tiempo: *¿Cuándo?*
+- Espacio: *¿Dónde?*
 
 
 ## De las ideas a las preguntas
