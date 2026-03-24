@@ -166,7 +166,7 @@ Sentido de usar números:
     
     - Distancia: tienen orden de distancia. 
     
-[PP: ¿Qué es medir para la ISCUAN y qué sentido tiene usar números?] {style="color: #4B0082;"}
+[PP: ¿Qué es medir para la ISCUAN y qué sentido tiene usar números?]{style="color: #4B0082;"}
 
 ![](clase_02_files/imagen5.png){fig-align="center"}
 
