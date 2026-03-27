@@ -11,7 +11,7 @@
 
 | Ayudante           | email                       |
 |--------------------|-----------------------------|
-| Fracesca Rocco    | Fran.roco21@gmail.com |
+| Fracesca Roco    | Fran.roco21@gmail.com |
 
 
 A continuación, podrán descargar el programa y programación del curso.
