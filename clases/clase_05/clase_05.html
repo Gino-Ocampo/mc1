@@ -3,9 +3,9 @@
   <head>
     <title>Clase 5</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Sebastián Muñoz" />
-    <meta name="date" content="2024-10-18" />
-    <script src="clase_05_files/header-attrs-2.25/header-attrs.js"></script>
+    <meta name="author" content="Gino Ocampo &amp; Sebastián Muñoz" />
+    <meta name="date" content="2026-04-07" />
+    <script src="clase_05_files/header-attrs-2.27/header-attrs.js"></script>
     <script src="clase_05_files/kePrint-0.0.1/kePrint.js"></script>
     <link href="clase_05_files/lightable-0.0.1/lightable.css" rel="stylesheet" />
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
@@ -18,10 +18,10 @@ class: center, middle, inverse, title-slide
 # Clase 5
 ]
 .author[
-### Sebastián Muñoz
+### Gino Ocampo &amp; Sebastián Muñoz
 ]
 .date[
-### 2024-10-18
+### 2026-04-07
 ]
 
 ---
@@ -95,7 +95,7 @@ class: inverse, center, middle
 * Puede almacenar información numérica, caracteres, valores lógicos (TRUE or FALSE)
 Ejemplo:
 
-```r
+``` r
 vector_numerico &lt;- c(1, 2, 4, 78, 42, 3, 65)
 vector_de_texto &lt;- c("casa", "auto", "bus", "bicicleta")
 ```
@@ -106,7 +106,7 @@ vector_de_texto &lt;- c("casa", "auto", "bus", "bicicleta")
 
 
 
-```r
+``` r
 genero &lt;- c(1,2,2,2,1,2,1,99,99)
 generof &lt;- factor (genero, labels = c("Hombre", "Mujer", NA))
 
@@ -172,7 +172,7 @@ class: inverse, center, middle
 * Podemos descargarlos e instalarlos con el siguiente comando:
 
 
-```r
+``` r
 install.packages("nombre_del_paquete")
 ```
 
@@ -180,7 +180,7 @@ install.packages("nombre_del_paquete")
 * Una vez instalado el paquete, cada vez que abramos una nueva sesión de R y querramos utilizar el mismo debemos cargarlo al ambiente de trabajo mediante la siguiente función:
 
 
-```r
+``` r
 library(nombre_del_paquete)
 ```
 
@@ -188,7 +188,7 @@ library(nombre_del_paquete)
 ## Ejemplos de paquetes
 
 
-```r
+``` r
 # Para abrir archivos excel
 install.packages("openxlsx") # Sólo se instala una vez
 
@@ -198,7 +198,7 @@ install.packages("tidyverse")#Sólo se debe instalar una vez.
 
 
 
-```r
+``` r
 #Abrir librerías (cada inicio de sesión)
 library(openxlsx)
 library(tidyverse)
@@ -263,43 +263,43 @@ A la hora de importar una base de datos nos podemos llegar a enfrentar a distint
 &lt;tbody&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; Texto Plano &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; readr &lt;/td&gt;
+   &lt;td style="text-align:left;vertical-align: middle !important;" rowspan="3"&gt; readr &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; .csv &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; read_csv() &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; Texto Plano &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; readr &lt;/td&gt;
+   
    &lt;td style="text-align:left;"&gt; .txt &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; read_txt() &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; Texto Plano &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; readr &lt;/td&gt;
+   
    &lt;td style="text-align:left;"&gt; .tsv &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; read_tsv() &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; Extension de R &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; RBase &lt;/td&gt;
+   &lt;td style="text-align:left;vertical-align: middle !important;" rowspan="2"&gt; RBase &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; .RDS &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; readRDS() &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; Extension de R &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; RBase &lt;/td&gt;
+   
    &lt;td style="text-align:left;"&gt; .RDATA &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; open() &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; Otros Softwares &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; haven &lt;/td&gt;
+   &lt;td style="text-align:left;vertical-align: middle !important;" rowspan="2"&gt; haven &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; .dta &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; read_dta() &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; Otros Softwares &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; haven &lt;/td&gt;
+   
    &lt;td style="text-align:left;"&gt; .sav &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; read_spss() &lt;/td&gt;
   &lt;/tr&gt;
@@ -325,7 +325,7 @@ El primer y más importante parámetro de las funciones para importar datos suel
 
 Si tenemos abierto un proyecto, el punto de partida para la ruta a especificar será la carpeta del proyecto. Si queremos ir hacia atrás en las carpetas agregamos  **`../`**
 
-```r
+``` r
 base.vacunas&lt;- read_csv(
   file = "../Fuentes/Covid19VacunasAgrupadas.csv",
   col_names = TRUE, # TRUE si la primera fila tiene nombres de columnas
@@ -340,7 +340,7 @@ base.covid &lt;- readRDS(file = "../Fuentes/base_covid_sample.RDS")
 #buscar bases de datos
 
 
-```r
+``` r
 base.vacunas&lt;- read_csv(file = "")      
 ```
 
@@ -353,7 +353,7 @@ base.vacunas&lt;- read_csv(file = "")
 #buscar bases de datos
 
 
-```r
+``` r
 base.covid &lt;- readRDS(file = "")
 ```
 
@@ -378,11 +378,11 @@ class: inverse, center, middle
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
-"slideNumberFormat": "%current%",
-"highlightStyle": "github",
-"highlightLines": true,
-"ratio": "16:9",
-"countIncrementalSlides": true
+  "slideNumberFormat": "%current%",
+  "highlightStyle": "github",
+  "highlightLines": true,
+  "ratio": "16:9",
+  "countIncrementalSlides": true
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
