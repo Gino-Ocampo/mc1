@@ -67,6 +67,8 @@ ingresos <- c(500000, 650000, 700000, 1200000)
 # Ejemplo 3: vector de texto: nombres de personas ("")
 nombres <- c("Ana", "Luis", "Camila", "Pedro")
 
+animales <- c("gato", "perro", "conejo")
+
 # Un vector se crea con la función c(), concatenando los componentes que va a contener
 # dicho objeto. Recordemos que son unidimensionales.
 
@@ -94,7 +96,7 @@ nivel_educ <- factor(nivel_num,
                      labels = c("Básica", "Media", "Superior"))  # qué significan: etiquetas
 
 # variable <- factor(vector,
-#                     levels = c(valores ddel vector),  
+#                     levels = c(valores del vector),  
 #                     labels = c("etiquetas categorías"))  
 
 # Ver el resultado
@@ -122,8 +124,7 @@ datos <- data.frame(
   nombre = c("Ana", "Luis", "Camila", "Pedro"),
   edad = c(18, 21, 25, 30),
   ingreso = c(500, 650, 700, 1200),
-  genero = c("F", "M", "F", "M")
-)
+  genero = c("F", "M", "F", "M"))
 
 datos
 
@@ -203,7 +204,7 @@ edad > 20
 
 #edad <- c(18, 21, 25, 30)
 
-edad > 24 #¿Qué resultado nos daría?
+edad > 24 #¿Qué resultado nos daría?3
 
 # Funciones básicas-------------------------------------------------------------
 # Funciones estadísticas simples:
