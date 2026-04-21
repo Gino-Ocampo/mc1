@@ -145,10 +145,6 @@ Uso de lenguaje técnico de R & Utiliza correctamente el lenguaje técnico de R,
 
 21. ¿Qué es un paquete o librería en R? ¿Cómo se instala y cómo se abre? ¿La instalación cuántas veces se hace y la apertura de cada paquete cuántas veces se hace?
 
-```{r}
-install.packages("ggplot2")
-library(ggplot2)
-```
 
 22. ¿Por qué se deben utilizar distintos paquetes al abrir bases de datos? ¿De qué depende el uso de uno u otro paquete?
 - tipos de archivos distintos: cómo cuales?
