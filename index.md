@@ -130,38 +130,87 @@ Recuerde puede faltar a 8 bloques! y debe ir a al menos a 3 Ayudantías!
 
 | Grupo | Tema                                | Nombre                                  |
 |-------|-------------------------------------|-----------------------------------------|
-| 1     |                                     |                                         |
+| 1     |  1.Valoración o evaluación  de actitudes autoritarias (conservadurismo) y su relación con variables socioeconómicas y demográficas  en estudiantes de antropología social de la UAH 
+2.Métodos de prevención de ets y embarazos no programados                                   |     Mauro González	
+Tatiana Labat
+Francisca Palma
+Evelyn Rojas
+Renato Silva
+Antonia Sobarzo
+                                    |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
-| 2     |                                     |                                         |
+| 2     |   Ludopatía en universitarios
+Educación sexual
+Trastornos alimenticios
+                                  |   Yasna Toledo
+Catalina Lopez
+Constanza Gamboa
+Alvaro Rojas
+Emilia Guerrero
+                                      |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
-| 3     |                                     |                                         |
+| 3     |  -Relación autoestima (autopercepción, sentimiento de soledad, etc) y uso de pantallas (plataformas de streaming, redes sociales, etc) 
+
+
+-nihilismo político y apoliticismo en jóvenes universitarios
+                                   |   Rafael Castillo
+Rodrigo porro
+Tomás Sarasibar
+Melissa Soto
+                                      |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
-| 4     |                                     |                                         |
+| 4     |  Redes sociales y salud mental en estudiantes/ circulación de la información y los efectos en el estudiantado / 
+Vínculo estudiantado-universidad y su impacto en la participación en espacios extracurriculares (UAH)
+                                   |  Belén Galaz
+Kamila Galleguillos
+Javiera Escobar
+Catalina Vallejos
+                                       |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
-| 5     |                                     |                                         |
+| 5     |   Percepciones frente al gobierno actual separados por área demográfica, según su lugar de residencia                                  |  Cristobal Rodriguez
+Zachir Faúndez
+Catalina Neira
+Amir Araos
+Farid Halaby
+Iris Sandoval
+                                       |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
-| 6     |                                     |                                         |
+| 6     |   Medios de transporte entre los estudiantes de la Universidad Alberto Hurtado                                  |  Emilia Cisterna
+Yadhira Díaz
+Belén Valenzuela
+Ángela Véliz
+Gastón González
+Vicente Cartes
+                                       |
 |       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+|       |                                     |                                         |
+| 7     | Estratificación Social                                    | Emilia Manríquez
+Antonia Palma
+Ignacia Fica
+Elisa Monsalve
+                                     |
 |       |                                     |                                         |
 |       |                                     |                                         |
 |       |                                     |                                         |
