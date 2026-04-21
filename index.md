@@ -73,7 +73,7 @@ Nota: En general las ayundantías son online, a excepción de que se coordine co
 | 1  | 26-03-2026  | Metodología cuantitativa y proceso de investigación | [`PPT`](ayudantias/ayudantia_1/ayudantia1.pdf) | [`[Ayudantía 1]`](https://uahurtadocl.sharepoint.com/sites/Ayudantas_f96904/_layouts/15/stream.aspx?id=%2Fsites%2FAyudantas%5Ff96904%2FDocumentos%20compartidos%2FGeneral%2FRecordings%2FReuni%C3%B3n%20en%20General%2D20260326%5F195149%2DGrabaci%C3%B3n%20de%20la%20reuni%C3%B3n%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo3NDcuMzU1Njg5fX0%3D&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef9d6ed2e%2D531c%2D4813%2D97cc%2D94dda7b30fad) |
 | 2  | 02-04-2026  | Introducción a RStudio | [`PPT`](ayudantias/ayudantia_2/ayudantia2.pdf) . [`RScript`](ayudantias/ayudantia_2/ayudantia2.R) | [`[Ayudantía 2]`](https://uahurtadocl.sharepoint.com/sites/Ayudantas_f96904/_layouts/15/stream.aspx?id=%2Fsites%2FAyudantas%5Ff96904%2FDocumentos%20compartidos%2FGeneral%2FRecordings%2FReuni%C3%B3n%20en%20General%2D20260402%5F194055%2DGrabaci%C3%B3n%20de%20la%20reuni%C3%B3n%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo3My4xMjk3MzJ9fQ%3D%3D&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E207c02bd%2Da214%2D4e27%2Da035%2Dd273a371a6e0) |
 | 3  | 08-04-2026  | RStudio: proyectos, paquetes, funciones, objetos | [`PPT`](ayudantias/ayudantia_3/ayudantia3.pdf) . [`RScript`](ayudantias/ayudantia_3/ayudantia3.R)  | [`[Ayudantía 3]`](https://uahurtadocl.sharepoint.com/sites/Ayudantas_f96904/_layouts/15/stream.aspx?id=%2Fsites%2FAyudantas%5Ff96904%2FDocumentos%20compartidos%2FGeneral%2FRecordings%2FReuni%C3%B3n%20en%20General%2D20260408%5F193603%2DGrabaci%C3%B3n%20de%20la%20reuni%C3%B3n%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyMy40NjQzNTh9fQ%3D%3D&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec7f172d6%2D91de%2D4ad0%2Da4d9%2D54b5815bac22) |
-| 4  | 15-04-2026  | Repaso prueba I | [`PPT`](ayudantias/ayudantia_4/ayudantia4.pdf) . [`RScript`](ayudantias/ayudantia_4/ayudantia4.R)  | [`[Ayudantía 4]`](https://uahurtadocl.sharepoint.com/sites/Ayudantas_f96904/_layouts/15/stream.aspx?id=%2Fsites%2FAyudantas%5Ff96904%2FDocumentos%20compartidos%2FGeneral%2FRecordings%2FReuni%C3%B3n%20en%20General%2D20260415%5F193548%2DGrabaci%C3%B3n%20de%20la%20reuni%C3%B3n%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo3LjkyMjc0MX19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E366b0b30%2D7d93%2D487d%2D993c%2Dc47ca7fe9ed5) |
+| 4  | 15-04-2026  | Repaso prueba I | Pendiente  | Pendiente |
 | 5 | 14-05-2026  | Marco teórico y metodológico, Operacionalización, Índices y escalas, Encuestas. RStudio: Tidyverse y ggplot | Pendiente  | Pendiente |
 | 6 | 28-11-2026  | Repaso contenidos prueba II y resolución dudas | Pendiente  | Pendiente |
 | 7 | 18-11-2026  | Repaso análisis de datos y abordaje instrucciones entrega final | Pendiente | Pendiente |
@@ -128,93 +128,15 @@ Recuerde puede faltar a 8 bloques! y debe ir a al menos a 3 Ayudantías!
 
 
 
-| Grupo | Tema                                | Nombre                                  |
-|-------|-------------------------------------|-----------------------------------------|
-| 1     |  1.Valoración o evaluación  de actitudes autoritarias (conservadurismo) y su relación con variables socioeconómicas y demográficas  en estudiantes de antropología social de la UAH 
-2.Métodos de prevención de ets y embarazos no programados                                   |     Mauro González	
-Tatiana Labat
-Francisca Palma
-Evelyn Rojas
-Renato Silva
-Antonia Sobarzo
-                                    |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-| 2     |   Ludopatía en universitarios
-Educación sexual
-Trastornos alimenticios
-                                  |   Yasna Toledo
-Catalina Lopez
-Constanza Gamboa
-Alvaro Rojas
-Emilia Guerrero
-                                      |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-| 3     |  -Relación autoestima (autopercepción, sentimiento de soledad, etc) y uso de pantallas (plataformas de streaming, redes sociales, etc) 
-
-
--nihilismo político y apoliticismo en jóvenes universitarios
-                                   |   Rafael Castillo
-Rodrigo porro
-Tomás Sarasibar
-Melissa Soto
-                                      |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-| 4     |  Redes sociales y salud mental en estudiantes/ circulación de la información y los efectos en el estudiantado / 
-Vínculo estudiantado-universidad y su impacto en la participación en espacios extracurriculares (UAH)
-                                   |  Belén Galaz
-Kamila Galleguillos
-Javiera Escobar
-Catalina Vallejos
-                                       |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-| 5     |   Percepciones frente al gobierno actual separados por área demográfica, según su lugar de residencia                                  |  Cristobal Rodriguez
-Zachir Faúndez
-Catalina Neira
-Amir Araos
-Farid Halaby
-Iris Sandoval
-                                       |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-| 6     |   Medios de transporte entre los estudiantes de la Universidad Alberto Hurtado                                  |  Emilia Cisterna
-Yadhira Díaz
-Belén Valenzuela
-Ángela Véliz
-Gastón González
-Vicente Cartes
-                                       |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-| 7     | Estratificación Social                                    | Emilia Manríquez
-Antonia Palma
-Ignacia Fica
-Elisa Monsalve
-                                     |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
-|       |                                     |                                         |
+| Grupo | Tema | Nombres |
+|:---:|:---|:---|
+| 1 | 1. Valoración o evaluación de actitudes autoritarias (conservadurismo) y su relación con variables socioeconómicas y demográficas en estudiantes de antropología social de la UAH<br>2. Métodos de prevención de ets y embarazos no programados | Mauro González<br>Tatiana Labat<br>Francisca Palma<br>Evelyn Rojas<br>Renato Silva<br>Antonia Sobarzo |
+| 2 | 1. Ludopatía en universitarios<br>2. Educación sexual<br>3. Trastornos alimenticios | Yasna Toledo<br>Catalina Lopez<br>Constanza Gamboa<br>Alvaro Rojas<br>Emilia Guerrero |
+| 3 | 1. Relación autoestima (autopercepción, sentimiento de soledad, etc) y uso de pantallas (plataformas de streaming, redes sociales, etc)<br>2. Nihilismo político y apoliticismo en jóvenes universitarios | Rafael Castillo<br>Rodrigo porro<br>Tomás Sarasibar<br>Melissa Soto |
+| 4 | 1. Redes sociales y salud mental en estudiantes/ circulación de la información y los efectos en el estudiantado /<br>2. Vínculo estudiantado-universidad y su impacto en la participación en espacios extracurriculares (uah) | Belén Galaz<br>Kamila Galleguillos<br>Javiera Escobar<br>Catalina Vallejos |
+| 5 | Percepciones frente al gobierno actual separados por área demográfica, según su lugar de residencia | Cristobal Rodriguez<br>Zachir Faúndez<br>Catalina Neira<br>Amir Araos<br>Farid Halaby<br>Iris Sandoval |
+| 6 | Medios de transporte entre los estudiantes de la Universidad Alberto Hurtado | Emilia Cisterna<br>Yadhira Díaz<br>Belén Valenzuela<br>Ángela Véliz<br>Gastón González<br>Vicente Cartes |
+| 7 | Estratificación social | Emilia Manríquez<br>Antonia Palma<br>Ignacia Fica<br>Elisa Monsalve |
 
 
 
