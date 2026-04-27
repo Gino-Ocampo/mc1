@@ -177,7 +177,7 @@ Si el paso 1 dice ser verdad, pero el paso 3 demuestra lo contrario, tenemos una
 
 # 
 
-![](clase_04_files/Imagen7.png){fig-align="center"}
+![](clase_07_files/Imagen7.png){fig-align="center"}
 
 ## Ejemplo: Encuesta Nacional de Participación Cultural (MINCAP)
 
