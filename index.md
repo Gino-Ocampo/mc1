@@ -76,7 +76,7 @@ Nota: En general las ayundantías son online, a excepción de que se coordine co
 | 4  | 15-04-2026  | Repaso prueba I | Pendiente  | Pendiente |
 | 5 | 13-05-2026  | Marco teórico y metodológico, Operacionalización, Índices y escalas, Encuestas| Pendiente  | Pendiente |
 | 6 | 03-06-2026  | Repaso contenidos prueba II: RStudio: Tidyverse. Resolución dudas | Pendiente  | Pendiente |
-| 7 | 17-11-2026  | Repaso análisis de datos y abordaje instrucciones entrega final | Pendiente | Pendiente |
+| 7 | 17-06-2026  | Repaso análisis de datos y abordaje instrucciones entrega final | Pendiente | Pendiente |
 
 
 ---
