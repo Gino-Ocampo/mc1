@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="clase_09_files/libs/clipboard/clipboard.min.js"></script>
+<script src="clase_09_files/libs/quarto-html/tabby.min.js"></script>
+<script src="clase_09_files/libs/quarto-html/popper.min.js"></script>
+<script src="clase_09_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="clase_09_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="clase_09_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="clase_09_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
+
+  <meta name="author" content="Gino Ocampo &amp; Sebastián Muñoz Tapia">
+  <meta name="dcterms.date" content="2026-05-11">
+  <title>Métodos Cuantitativos I - Clase 9</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="clase_09_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="clase_09_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="clase_09_files/libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link href="clase_09_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="clase_09_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="clase_09_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="clase_09_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Métodos Cuantitativos I - Clase 9</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Gino Ocampo &amp; Sebastián Muñoz 
+</div>
+</div>
+</div>
+
+  <p class="date">2026-05-11</p>
+</section>
+<section class="slide level2">
+
+<style>
+  /* 1. Ensanchar el espacio horizontal de las diapositivas */
+  .reveal .slides {
+    max-width: 1500px !important; /* Límite máximo para que no se deforme */
+  }
+
+  /* 2. Disminuir el tamaño de la letra del texto normal (viñetas, párrafos) */
+  .reveal {
+    font-size: 28px !important; /* Achica este número si lo quieres aún más pequeño */
+  }
+
+  /* 3. Disminuir el tamaño de los títulos de cada diapositiva */
+  .reveal h2 {
+    font-size: 45px !important;
+  }
+  .reveal ul, .reveal ol {
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+</section>
+<section id="tabla-de-contenidos" class="slide level2">
+<h2>Tabla de contenidos</h2>
+<ol type="1">
+<li>Fuentes de información cuantitativa</li>
+<li>La encuesta y el cuestionario: estructura y componentes</li>
+<li>Tipos de pregunta según contenido</li>
+<li>Tipos de pregunta según tipo de respuesta</li>
+<li>Tipos de pregunta según categorías de respuesta</li>
+<li>Fraseo de preguntas y cristalización</li>
+<li>Errores comunes y recomendaciones</li>
+<li>Síntesis</li>
+</ol>
+</section>
+<section>
+<section id="fuentes-de-información-cuantitativa" class="title-slide slide level1 center" data-background-color="#00718A">
+<h1>01. Fuentes de información cuantitativa</h1>
+
+</section>
+<section id="fuentes-de-información-cuantitativa-1" class="slide level2">
+<h2>Fuentes de información cuantitativa</h2>
+<ul>
+<li>Además de especificar el tipo de estudio, tipo de diseño, estrategia metodológica y estrategia muestral,<br>
+el marco metodológico debe especificar cual es el <strong>instrumento</strong> que se utilizará para producir información.</li>
+</ul>
+<p><span style="color: #00718A;"><strong>Generar datos!</strong></span></p>
+<p>En el marco de la metodología cuantitativa, debe ser un instrumento que permita traducir <span style="color: #00718A;"><strong>fenómenos sociales a números</strong></span>. Hay diversas alternativas, según el tipo de objeto que estemos estudiando</p>
+
+<img data-src="clase_09_files/imagen1.png" class="quarto-figure quarto-figure-center r-stretch"></section></section>
+<section>
+<section id="cómo-se-produce-información-cuantitativa" class="title-slide slide level1 center" data-background-color="#00718A">
+<h1>¿Cómo se produce información cuantitativa?</h1>
+
+</section>
+<section id="de-dónde-vienen-los-números-que-analizamos" class="slide level2">
+<h2>¿De dónde vienen los números que analizamos?</h2>
+<p>La investigación cuantitativa utiliza números mediante procesos de medición, codificación, análisis y selección de sujetos (Asún, en Canales, 2006). La pregunta clave es: ¿cómo generamos esos números?</p>
+<p>Existen dos grandes caminos:</p>
+<div class="fragment">
+<p>Datos primarios: producidos directamente por el investigador para responder su pregunta de investigación.</p>
+</div>
+<div class="fragment">
+<p>Datos secundarios: producidos por otros (instituciones, investigadores previos) y reutilizados con un nuevo propósito analítico.</p>
+</div>
+</section></section>
+<section>
+<section id="múltiples-formas-de-producir-información-cuantitativa" class="title-slide slide level1 center" data-background-color="#00718A">
+<h1>Múltiples formas de producir información cuantitativa</h1>
+
+</section>
+<section id="panorama-de-fuentes-de-información-cuantitativa" class="slide level2">
+<h2>Panorama de fuentes de información cuantitativa</h2>
+<p>A. Datos primarios <span style="color: #00718A;">(el investigador los produce)</span></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Técnica</th>
+<th>Descripción</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Encuesta (cuestionario)</strong></td>
+<td>Instrumento estandarizado aplicado a una muestra. Presencial, telefónica u online.</td>
+<td>Encuesta sobre participación política a estudiantes universitarios</td>
+</tr>
+<tr class="even">
+<td><strong>Observación estructurada</strong></td>
+<td>Registro sistemático de conductas con pauta de codificación predefinida.</td>
+<td>Contar frecuencia de interacciones en sala de clases</td>
+</tr>
+<tr class="odd">
+<td><strong>Experimento / cuasi-experimento</strong></td>
+<td>Manipulación controlada de variables para medir efectos causales.</td>
+<td>Efecto de un estímulo informativo sobre actitudes hacia la inmigración</td>
+</tr>
+<tr class="even">
+<td><strong>Test o escala estandarizada</strong></td>
+<td>Instrumentos validados para medir constructos psicológicos o sociales.</td>
+<td>Escala de autoeficacia, test de autoritarismo</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="panorama-de-fuentes-de-información-cuantitativa-1" class="slide level2">
+<h2>Panorama de fuentes de información cuantitativa</h2>
+<p>B. Datos secundarios <span style="color: #00718A;">(producidos por otros)</span></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fuente</th>
+<th>Descripción</th>
+<th>Ejemplo en Chile</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Encuestas preexistentes</strong></td>
+<td>Grandes encuestas nacionales o internacionales disponibles para análisis.</td>
+<td>CASEN, CEP, Latinobarómetro, ELSOC, World Values Survey</td>
+</tr>
+<tr class="even">
+<td><strong>Registros administrativos</strong></td>
+<td>Datos generados por instituciones en su gestión cotidiana.</td>
+<td>MINSAL (defunciones, egresos hospitalarios), MINEDUC (matrícula, SIMCE), SII, Registro Civil</td>
+</tr>
+<tr class="odd">
+<td><strong>Censos</strong></td>
+<td>Registro exhaustivo de una población en un momento determinado.</td>
+<td>Censo de Población y Vivienda (INE)</td>
+</tr>
+<tr class="even">
+<td><strong>Datos digitales / Big Data</strong></td>
+<td>Información generada por la actividad digital de las personas.</td>
+<td>Datos de redes sociales, tráfico web, registros de Spotify, GPS</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="web-scraping-y-nuevas-fuentes-digitales" class="slide level2">
+<h2>Web scraping y nuevas fuentes digitales</h2>
+<p>En el contexto de la digitalización y el Big Data (las 3 V: volumen, velocidad, variedad): Web scraping: Extracción automatizada de datos desde páginas web mediante programación (Python, R). Permite convertir información no estructurada (texto, imágenes, metadatos) en bases de datos cuantificables. Ejemplos de aplicación en ciencias sociales:</p>
+<div class="fragment">
+<blockquote>
+<p>Análisis de precios de arriendo en portales inmobiliarios</p>
+</blockquote>
+</div>
+<div class="fragment">
+<blockquote>
+<p>Monitoreo de discurso político en prensa digital</p>
+</blockquote>
+</div>
+<div class="fragment">
+<blockquote>
+<p>Análisis de redes de recomendación en YouTube (como en el ejemplo de la clase 1 sobre música urbana)</p>
+</blockquote>
+</div>
+<div class="fragment">
+<blockquote>
+<p>Procesamiento de lenguaje natural (NLP) sobre letras de canciones o tweets</p>
+</blockquote>
+</div>
+<p><strong>Consideraciones éticas y metodológicas</strong>: términos de servicio, consentimiento informado en entornos digitales, representatividad de los datos, sesgo algorítmico.</p>
+</section>
+<section id="cuándo-usar-cada-fuente" class="slide level2">
+<h2>¿Cuándo usar cada fuente?</h2>
+<p>Criterios de decisión:</p>
+<div class="fragment">
+<ul>
+<li>Pregunta de investigación: ¿Requiere información que ya existe o información nueva?</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Recursos disponibles: Tiempo, dinero, acceso a la población.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Nivel de control: ¿Necesito controlar cómo se formulan las preguntas?</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Especificidad: ¿Mis variables/indicadores están ya medidos en fuentes existentes?</li>
+</ul>
+</div>
+<p><span style="color: #00718A;">En su investigación grupal, ¿utilizarán datos primarios, secundarios o ambos? ¿Por qué?</span></p>
+</section></section>
+<section>
+<section id="la-encuesta-y-el-cuestionario-estructura-y-componentes" class="title-slide slide level1 center" data-background-color="#00718A">
+<h1>02. La encuesta y el cuestionario: estructura y componentes</h1>
+
+</section>
+<section id="la-encuesta-como-técnica-de-producción-de-información" class="slide level2">
+<h2>La encuesta como técnica de producción de información</h2>
+<p>La <span style="color: #00718A;">encuesta</span> es una técnica de recolección de datos que utiliza un cuestionario&nbsp;estandarizado aplicado a una muestra de individuos, con el fin de obtener información&nbsp;cuantificable sobre hechos, opiniones, actitudes o comportamientos.</p>
+<p>Características fundamentales:</p>
+<div class="fragment">
+<blockquote>
+<p><strong>Estandarización</strong>: mismas preguntas, mismo orden, mismas opciones para todos.</p>
+</blockquote>
+</div>
+<div class="fragment">
+<blockquote>
+<p>Permite <strong>generalización</strong> (si el muestreo es adecuado).</p>
+</blockquote>
+</div>
+<div class="fragment">
+<blockquote>
+<p>Produce datos <strong>comparables</strong> entre sujetos.</p>
+</blockquote>
+</div>
+<div class="fragment">
+<blockquote>
+<p>Es la técnica más utilizada en ciencias sociales cuantitativas.</p>
+</blockquote>
+</div>
+</section>
+<section id="la-encuesta-como-técnica-de-producción-de-información-1" class="slide level2">
+<h2>La encuesta como técnica de producción de información</h2>
+<p>Modalidades de aplicación:</p>
+<div class="fragment">
+<p><strong>CAPI</strong> <span style="color: #00718A;">(Computer-Assisted Personal Interviewing)</span> &gt; Encuesta presencial cara a cara en la que el/la encuestador/a registra las respuestas directamente en un dispositivo electrónico (tablet, notebook o celular).</p>
+</div>
+<div class="fragment">
+<p><strong>CATI</strong> <span style="color: #00718A;">(Computer-Assisted Telephone Interviewing)</span> &gt; Encuesta telefónica asistida por computador, donde el/la entrevistador/a sigue un cuestionario digital y registra las respuestas en tiempo real.</p>
+</div>
+<div class="fragment">
+<p><strong>PAPI</strong> <span style="color: #00718A;">(Paper and Pencil Interviewing)</span>Autoadministrada en papel &gt; Cuestionario respondido directamente por la persona encuestada en formato papel, sin mediación tecnológica.</p>
+</div>
+<div class="fragment">
+<p><strong>CAWI</strong> <span style="color: #00718A;">(Computer-Assisted Web Interviewing)</span> &gt; Encuesta online respondida mediante internet desde computador o celular. Ejemplos de plataformas: Google Forms, SurveyMonkey, Qualtrics, LimeSurvey, E-encuestas.</p>
+</div>
+</section>
+<section id="estructura-general-de-un-cuestionario" class="slide level2">
+<h2>Estructura general de un cuestionario</h2>
+<p>Un cuestionario bien diseñado tiene las siguientes secciones:</p>
+<div class="fragment">
+<ol type="1">
+<li>Presentación / consentimiento informado: Quién investiga, para qué, confidencialidad, voluntariedad.</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="2" type="1">
+<li>Preguntas filtro o de clasificación inicial: Verifican que el encuestado cumple los criterios de inclusión.</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="3" type="1">
+<li>Módulos temáticos: Agrupados por dimensión/variable. Van de lo más general a lo más específico,<br>
+de lo menos sensible a lo más sensible.</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="4" type="1">
+<li>Datos sociodemográficos: Generalmente al final (edad, sexo, nivel educacional, ingreso, etc.).<br>
+Excepción: si son variables filtro, van al inicio.</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="5" type="1">
+<li>Cierre y agradecimiento.</li>
+</ol>
+</div>
+<div class="fragment">
+<p><strong>Principio general</strong>: El cuestionario es la traducción empírica de la tabla de operacionalización. Cada indicador se convierte en una o más preguntas.</p>
+</div>
+</section></section>
+<section>
+<section id="tipos-de-pregunta-según-contenido" class="title-slide slide level1 center" data-background-color="#00718A">
+<h1>03. TIPOS DE PREGUNTA SEGÚN CONTENIDO</h1>
+
+</section>
+<section id="qué-queremos-medir-tipos-de-pregunta-según-contenido" class="slide level2">
+<h2>¿Qué queremos medir? Tipos de pregunta según <span style="color: #00718A;"><em>contenido</em></span></h2>
+<p>El contenido de una pregunta se define por el tipo de fenómeno que busca captar. Siguiendo a Cea D’Ancona (1998) y Asún (2006):</p>
+<ol type="1">
+<li><strong>Preguntas de hechos (o conductas)</strong> Indagan sobre características objetivas o comportamientos<br>
+verificables del encuestado.</li>
+</ol>
+<ul>
+<li><em>¿Cuántos años tiene usted?</em></li>
+<li><em>¿Votó en las últimas elecciones municipales?</em></li>
+<li><em>¿Cuántas horas a la semana dedica a estudiar?</em></li>
+<li><em>¿En qué comuna reside actualmente?</em></li>
+</ul>
+<p><strong>Ventaja</strong>: Menor ambigüedad, respuestas más confiables. <strong>Riesgo</strong>: Sesgo de memoria, deseabilidad social en conductas sensibles (ej. consumo de drogas).</p>
+</section>
+<section id="tipos-de-pregunta-según-contenido-1" class="slide level2">
+<h2>Tipos de pregunta según contenido</h2>
+<ol start="2" type="1">
+<li><strong>Preguntas de aptitudes o conocimientos</strong></li>
+</ol>
+<p>Evalúan lo que la persona sabe o es capaz de hacer. Tienen respuestas <strong>correctas e incorrectas</strong>.</p>
+<ul>
+<li><em>¿Sabe usted quién es el actual presidente del Senado?</em></li>
+<li><em>¿Cuál de las siguientes es una función del Banco Central?</em></li>
+<li><em>Verdadero o Falso: “El PIB mide el bienestar de la población”</em></li>
+</ul>
+<p><strong>Uso en ciencias sociales</strong>: Medir alfabetización política, conocimiento financiero, comprensión de derechos, etc. <strong>Precaución</strong>: Pueden generar incomodidad o resistencia en el encuestado si se percibe como “examen”. Incluir opciones como “No sé” para evitar respuestas al azar.</p>
+</section>
+<section id="tipos-de-pregunta-según-contenido-2" class="slide level2">
+<h2>Tipos de pregunta según contenido</h2>
+<p><strong>3. Preguntas de actitudes</strong> Buscan captar predisposiciones evaluativas relativamente estables hacia objetos, personas o situaciones.</p>
+<ul>
+<li><em>¿Qué tan de acuerdo está con la afirmación: “La inmigración enriquece<em><br>
+</em>culturalmente a Chile”? (Muy de acuerdo… Muy en desacuerdo)</em></li>
+</ul>
+<p><strong>4. Preguntas de opiniones</strong> Captan juicios o valoraciones puntuales, menos estables que las actitudes.</p>
+<ul>
+<li><em>¿Cree usted que el gobierno actual está haciendo un buen trabajo en materia de seguridad?</em></li>
+</ul>
+<p><strong>5. Preguntas de valores</strong> Indagan sobre principios o ideales que guían la conducta.</p>
+<ul>
+<li><em>¿Qué es más importante para usted: la libertad individual o la igualdad social?</em></li>
+</ul>
+<p><strong>Nota conceptual</strong>: La distinción entre actitud, opinión y valor es analítica. En la práctica, muchas preguntas combinan elementos de las tres. Lo importante es tener claridad sobre qué constructo se está midiendo y cómo se vincula con la operacionalización.</p>
+</section></section>
+<section>
+<section id="tipos-de-pregunta-según-tipo-de-respuesta" class="title-slide slide level1 center" data-background-color="#00718A">
+<h1>04. Tipos de pregunta según tipo de respuesta</h1>
+
+</section>
+<section id="preguntas-abiertas" class="slide level2">
+<h2>Preguntas abiertas</h2>
+<p>No se ofrecen alternativas de respuesta. El encuestado responde con sus propias palabras.</p>
+<p><strong>Ejemplo</strong>:</p>
+<ul>
+<li><p><em>¿Cuál es, en su opinión, el principal problema del país?</em></p></li>
+<li><p><em>¿Qué entiende usted por “calidad de vida”?</em></p></li>
+</ul>
+<div class="fragment">
+<p><strong>Ventajas</strong>:</p>
+<ul>
+<li><p>Riqueza de información, captan matices no previstos.</p></li>
+<li><p>Útiles en etapas exploratorias o como complemento.</p></li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Desventajas</strong>:</p>
+<ul>
+<li><p>Difíciles de codificar y analizar cuantitativamente (requieren post-codificación).</p></li>
+<li><p>Más tiempo de respuesta y de procesamiento.</p></li>
+<li><p>Mayor tasa de no respuesta.</p></li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Uso recomendado</strong>: En pretest o pilotaje, para descubrir categorías que luego se cerrarán.</p>
+</div>
+</section>
+<section id="preguntas-cerradas" class="slide level2">
+<h2>Preguntas cerradas</h2>
+<p>Se ofrecen todas las alternativas de respuesta posibles. El encuestado elige una o más.</p>
+<div class="fragment">
+<p><strong>Ejemplo (selección única)</strong>:</p>
+<ul>
+<li><em>¿Cuál es su estado civil? (Soltero/a, Casado/a, Conviviente, Separado/a, Viudo/a)</em></li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Ejemplo (selección múltiple)</strong>:</p>
+<ul>
+<li><p><em>¿Cuáles de los siguientes medios utiliza para informarse? (Marque todas las que apliquen)</em></p>
+<ul>
+<li>Televisión / Redes sociales / Prensa escrita / Radio / Podcasts / Otros</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Ventajas</strong>:</p>
+<ul>
+<li>Facilitan codificación, comparabilidad y análisis estadístico.</li>
+<li>Menor tiempo de respuesta.</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Desventajas</strong>:</p>
+<ul>
+<li>Pueden forzar opciones que no representan al encuestado.</li>
+<li>Riesgo de omitir alternativas relevantes.</li>
+</ul>
+</div>
+</section>
+<section id="preguntas-cerradas-1" class="slide level2">
+<h2>Preguntas cerradas</h2>
+<div class="fragment">
+<p><strong>Regla clave</strong>: Las categorías deben ser <strong>exhaustivas</strong> (cubrir todas las posibilidades) y <strong>mutuamente excluyentes</strong> (cada caso cabe en una sola categoría). Cuando no se puede garantizar exhaustividad, incluir “Otro (especifique)”.</p>
+</div>
+</section>
+<section id="preguntas-mixtas" class="slide level2">
+<h2>Preguntas Mixtas</h2>
+<p>Combinan alternativas cerradas con una opción abierta</p>
+<div class="fragment">
+<p>Ejemplo:</p>
+<ul>
+<li><em>¿Cuál es su principal fuente de ingresos?</em></li>
+</ul>
+<ol type="a">
+<li>Trabajo dependiente<br>
+</li>
+<li>Trabajo independiente<br>
+</li>
+<li>Beca o mesada<br>
+</li>
+<li>Pensión<br>
+</li>
+<li>Otro: ___________</li>
+</ol>
+</div>
+<div class="fragment">
+<p><em>Ventaja</em>: Equilibran estandarización con flexibilidad. Son la opción más recomendada cuando no se tiene certeza total de todas las categorías posibles.</p>
+</div>
+</section></section>
+<section>
+<section id="tipos-de-pregunta-según-categorías-de-respuesta" class="title-slide slide level1 center" data-background-color="#00718A">
+<h1>05. TIPOS DE PREGUNTA SEGÚN CATEGORÍAS DE RESPUESTA</h1>
+
+</section>
+<section id="categorías-de-respuesta-y-niveles-de-medición" class="slide level2">
+<h2>Categorías de respuesta y niveles de medición</h2>
+<p>Recordar de clases anteriores: mayor nivel de medición → mayor cantidad de operaciones estadísticas posibles. La forma en que diseñamos las categorías de respuesta determina el nivel de medición de la variable resultante:</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tipo de categoría</th>
+<th>Nivel de medición</th>
+<th>Propiedad</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Dicotómica</strong></td>
+<td>Nominal</td>
+<td>Clasificación en 2 grupos</td>
+<td>Sí / No</td>
+</tr>
+<tr class="even">
+<td><strong>Politómica nominal</strong></td>
+<td>Nominal</td>
+<td>Clasificación en 3+ grupos sin orden</td>
+<td>Religión: Católica / Evangélica / Ninguna / Otra</td>
+</tr>
+<tr class="odd">
+<td><strong>Ordinal</strong></td>
+<td>Ordinal</td>
+<td>Orden entre categorías, distancia desconocida</td>
+<td>Muy en desacuerdo / En desacuerdo / De acuerdo / Muy de acuerdo</td>
+</tr>
+<tr class="even">
+<td><strong>Intervalar (tipo Likert)</strong></td>
+<td>Ordinal (tratado como intervalar)</td>
+<td>Se asume distancia equivalente entre puntos</td>
+<td>Escala de 1 a 7 donde 1 = Nada satisfecho, 7 = Totalmente satisfecho</td>
+</tr>
+<tr class="odd">
+<td><strong>De razón (numérica directa)</strong></td>
+<td>Razón</td>
+<td>Tiene cero absoluto</td>
+<td>¿Cuántos hijos tiene? / ¿Cuál es su ingreso mensual en pesos?</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="preguntas-dicotómicas" class="slide level2">
+<h2>Preguntas dicotómicas</h2>
+<ul>
+<li><strong>Estructura</strong>: Solo dos opciones de respuesta.</li>
+</ul>
+<div class="fragment">
+<p>Ejemplos:</p>
+<ul>
+<li><em>¿Tiene usted hijos?</em> → Sí / No</li>
+<li><em>¿Participó en la última elección?</em> → Sí / No</li>
+<li><em>¿Está actualmente empleado/a?</em> → Sí / No</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Ventajas</strong>: Máxima claridad, fácil codificación (0/1), útiles para variables filtro.</p>
+</div>
+<div class="fragment">
+<p><strong>Limitación</strong>: Simplifican realidades complejas. No captan intensidad ni matices.</p>
+</div>
+<div class="fragment">
+<p><strong>Consejo</strong>: Son ideales como “puerta de entrada” antes de preguntas de profundización.</p>
+</div>
+<div class="fragment">
+<p><strong>Ejemplo</strong>: <em>“¿Tiene hijos?”</em> → Si responde Sí → “¿Cuántos?”</p>
+</div>
+</section>
+<section id="preguntas-con-respuesta-ordinal" class="slide level2">
+<h2>Preguntas con respuesta ordinal</h2>
+<p><strong>Estructura</strong>: Categorías con un orden lógico, pero sin distancia conocida entre ellas.</p>
+<div class="fragment">
+<p>Ejemplo:</p>
+<p><em>¿Con qué frecuencia participa en actividades extracurriculares?</em></p>
+<pre><code>Nunca / Rara vez / A veces / Frecuentemente / Siempre</code></pre>
+</div>
+<div class="fragment">
+<p><strong>Ejemplo clásico: Escala Likert</strong></p>
+<p><em>“Las redes sociales mejoran la calidad de la democracia”</em></p>
+<pre><code> Muy en desacuerdo (1) / En desacuerdo (2) / Ni de acuerdo ni en desacuerdo (3) / De acuerdo (4) / Muy de acuerdo (5)</code></pre>
+</div>
+<div class="fragment">
+<p><strong>Nota metodológica</strong>: ¿Son realmente intervalares las Likert? Estrictamente son ordinales (no sabemos si la distancia entre “de acuerdo” y “muy de acuerdo” es la misma que entre “en desacuerdo” y “de acuerdo”). En la práctica, con 5 o más categorías, se tratan como intervalares para permitir operaciones estadísticas más complejas (promedios, regresiones). Este es un supuesto pragmático, no una verdad ontológica.</p>
+</div>
+</section>
+<section id="preguntas-con-respuesta-intervalar-y-de-razón" class="slide level2">
+<h2>Preguntas con respuesta intervalar y de razón</h2>
+<p><strong>Intervalares</strong>: Distancia constante entre categorías, pero sin cero absoluto.</p>
+<div class="fragment">
+<p>Ejemplo:</p>
+<ul>
+<li><p><em>¿En qué año nació usted?</em> (→ se puede calcular edad, pero “año 0” es convencional)</p></li>
+<li><p>Escalas de temperatura</p></li>
+</ul>
+</div>
+<p><strong>De razón</strong>: Tienen un cero real (ausencia total del atributo).</p>
+<div class="fragment">
+<p>Ejemplo:</p>
+<ul>
+<li><em>¿Cuántas horas semanales trabaja usted? (→ 0 = no trabaja)</em></li>
+<li><em>¿Cuál es su ingreso mensual líquido en pesos chilenos? _________</em></li>
+<li><em>¿Cuántos libros leyó el último año? _________</em></li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Ventaja</strong>: Permiten todas las operaciones estadísticas (promedios, desviaciones, regresiones, ratios).</p>
+</div>
+<div class="fragment">
+<p><strong>Recomendación</strong>: Cuando sea posible, recoger la información en la unidad más precisa (número exacto) y luego recodificar en categorías para el análisis si es necesario. Se puede descender en nivel de medición, no ascender.</p>
+</div>
+</section></section>
+<section>
+<section id="fraseo-de-preguntas-y-cristalización" class="title-slide slide level1 center" data-background-color="#00718A">
+<h1>06. FRASEO DE PREGUNTAS Y CRISTALIZACIÓN</h1>
+
+</section>
+<section id="el-arte-del-fraseo-principios-generales" class="slide level2">
+<h2>El arte del fraseo: principios generales</h2>
+<p>El fraseo (redacción) de las preguntas es una de las decisiones más importantes del diseño del cuestionario. Una mala pregunta produce datos inservibles.</p>
+</section>
+<section id="principios-fundamentales" class="slide level2">
+<h2>Principios fundamentales</h2>
+<div class="fragment">
+<p><strong>1. Claridad</strong>: Lenguaje sencillo, accesible a toda la población objetivo. Evitar jerga técnica, conceptos abstractos y tecnicismos académicos.</p>
+</div>
+<div class="fragment">
+<p><strong>2. Univocidad</strong>: Cada pregunta debe tener un solo significado posible. Si dos personas pueden interpretar la pregunta de manera diferente, está mal formulada.</p>
+</div>
+<div class="fragment">
+<p><strong>3. Neutralidad</strong>: No inducir la respuesta. Evitar preguntas cargadas emocionalmente o que sugieran una respuesta “correcta”.</p>
+</div>
+<div class="fragment">
+<p><strong>4. Especificidad</strong>: Definir claramente el marco temporal, espacial y temático. “¿Hace ejercicio?” es vago; “¿Cuántas veces por semana realizó ejercicio físico durante el último mes?” es específico.</p>
+</div>
+<div class="fragment">
+<p><strong>5. Brevedad</strong>: Preguntas cortas y directas. Si necesita más de dos líneas, probablemente se puede simplificar.</p>
+</div>
+</section>
+<section id="errores-comunes-en-el-fraseo" class="slide level2">
+<h2>Errores comunes en el fraseo</h2>
+<div class="fragment">
+<p>❌ <strong>Preguntas dobles (double-barreled)</strong> Preguntan dos cosas a la vez:</p>
+<ul>
+<li><p><em>“¿Está satisfecho con su salario y con el ambiente laboral?”</em></p></li>
+<li><p><strong>Problema</strong>: ¿Qué responde alguien satisfecho con el salario pero no con el ambiente?</p></li>
+<li><p><strong>Solución</strong>: Dividir en dos preguntas separadas.</p></li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>❌ Preguntas tendenciosas o cargadas</strong> Inducen una respuesta:</p>
+<ul>
+<li><em>“¿No cree usted que el gobierno debería proteger mejor a los ciudadanos?”</em></li>
+<li><em>“¿Está de acuerdo con que la delincuencia, que destruye la convivencia social, debe castigarse con penas más duras?”</em></li>
+<li><strong>Solución</strong>: Formular de modo neutro: “¿Qué tan de acuerdo está con aumentar las penas por delitos comunes?”</li>
+</ul>
+</div>
+<div class="fragment">
+<p>❌ <strong>Doble negación</strong></p>
+<ul>
+<li><em>“¿Está en desacuerdo con que no se debería permitir…?”</em></li>
+<li><strong>Solución</strong>: Reformular en positivo.</li>
+</ul>
+</div>
+<div class="fragment">
+<p>❌ Preguntas que asumen hechos</p>
+<ul>
+<li><em>“¿Con qué frecuencia consume alcohol?”</em> (asume que consume)</li>
+<li><strong>Solución</strong>: Primero preguntar si consume, luego la frecuencia.</li>
+</ul>
+</div>
+</section>
+<section id="más-errores-frecuentes" class="slide level2">
+<h2>Más errores frecuentes</h2>
+<div class="fragment">
+<p>❌ Alternativas no exhaustivas</p>
+<p>“¿Cuál es su estado civil?” Soltero / Casado / Divorciado Falta: Conviviente, separado, viudo.</p>
+</div>
+<div class="fragment">
+<p>❌ Alternativas no mutuamente excluyentes</p>
+<p>“¿Cuántas horas duerme?” Menos de 6 / 6 a 8 / 8 a 10 / Más de 10<br>
+Problema: ¿Dónde va quien duerme exactamente 8 horas? Solución: Menos de 6 / 6 a 7 / 8 a 9 / 10 o más</p>
+</div>
+<div class="fragment">
+<p>❌ Uso de términos vagos</p>
+<p>“¿Viaja frecuentemente?” → ¿Qué es “frecuentemente”? Solución: Especificar: “¿Cuántas veces viajó fuera de su ciudad durante los últimos 12 meses?”</p>
+</div>
+<div class="fragment">
+<p>❌ Preguntas sobre períodos demasiado largos</p>
+<p>“¿Cuántas veces fue al médico en los últimos 5 años?” Problema: Sesgo de memoria. Solución: Acortar el período de referencia.</p>
+</div>
+</section>
+<section id="la-cristalización" class="slide level2">
+<h2>La cristalización</h2>
+<p>El fenómeno de la cristalización.</p>
+<div class="fragment">
+<blockquote>
+<p>“Mi experiencia me indica que el solo hecho de preguntar modifica la realidad del sujeto (a veces incluso creando una opinión que no existe, proceso que tiene nombre: cristalización), y con mayor razón influyen el lenguaje y la redacción específica de la pregunta.” (Asún, 2006)</p>
+</blockquote>
+</div>
+<div class="fragment">
+<p><strong>¿Qué es la cristalización?</strong> Es el proceso por el cual una pregunta de encuesta crea una opinión en el encuestado que antes no existía. Al verse obligado a responder, la persona “cristaliza” una posición que no tenía formada previamente.</p>
+</div>
+<div class="fragment">
+<p>Implicancias:</p>
+</div>
+<div class="fragment">
+<ul>
+<li>No todas las personas tienen opiniones formadas sobre todos los temas.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Forzar una respuesta puede producir datos artificiales.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Los encuestados tienden a responder algo (en lugar de decir “no sé”) por deseabilidad social.</li>
+</ul>
+</div>
+</section>
+<section id="la-cristalización-1" class="slide level2">
+<h2>La cristalización</h2>
+<p>Estrategias para mitigar la cristalización:</p>
+<ul>
+<li>Incluir opciones como “No sabe” / “No tiene opinión” / “No aplica”.</li>
+<li>Usar preguntas filtro previas: ” <em>¿Ha escuchado hablar sobre X?“</em> → Solo si responde Sí, se pregunta la opinión.</li>
+<li>No abusar de temas muy lejanos a la experiencia del encuestado.</li>
+</ul>
+</section>
+<section id="sesgos-de-respuesta-a-considerar" class="slide level2">
+<h2>Sesgos de respuesta a considerar</h2>
+<p>Además de la cristalización, existen otros sesgos que el diseñador del cuestionario debe anticipar:</p>
+<div class="fragment">
+<p><strong>Aquiescencia</strong>: Tendencia a responder “de acuerdo” a todo, independientemente del contenido. Se contrarresta incluyendo ítems directos e inversos en las escalas.</p>
+</div>
+<div class="fragment">
+<p><strong>Deseabilidad social</strong>: Responder lo que se percibe como socialmente aceptable. Se agrava en temas sensibles (ingresos, discriminación, consumo de drogas). Técnicas: garantizar anonimato, preguntas indirectas, técnicas de respuesta aleatoria.</p>
+</div>
+<div class="fragment">
+<p><strong>Efecto de orden</strong>: Las primeras opciones de una lista tienden a ser más elegidas (efecto de primacía). En encuestas telefónicas o largas, las últimas opciones (efecto de recencia). Se contrarresta rotando el orden de las alternativas.</p>
+</div>
+<div class="fragment">
+<p><strong>Efecto del contexto</strong>: La respuesta a una pregunta puede verse influida por las preguntas anteriores. El orden de los módulos importa.</p>
+</div>
+</section>
+<section id="errores-comunes-en-el-fraseo-y-sesgos-de-respuesta" class="slide level2">
+<h2>Errores comunes en el fraseo y Sesgos de respuesta</h2>
+
+<img data-src="clase_09_files/imagen3.png" class="quarto-figure quarto-figure-center r-stretch"></section></section>
+<section>
+<section id="recomendaciones-finales" class="title-slide slide level1 center" data-background-color="#00718A">
+<h1>07. RECOMENDACIONES FINALES</h1>
+
+</section>
+<section id="buenas-prácticas-para-diseñar-un-cuestionario" class="slide level2">
+<h2>Buenas prácticas para diseñar un cuestionario</h2>
+<div class="fragment">
+<ol type="1">
+<li><strong>Partir siempre de la tabla de operacionalización</strong>: Cada pregunta debe corresponder a un indicador,<br>
+y cada indicador a una dimensión del constructo teórico.</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="2" type="1">
+<li><strong>Pilotear el instrumento</strong>: Aplicar a un grupo pequeño antes de la aplicación definitiva.<br>
+Identificar preguntas confusas, tiempos de respuesta, fatiga.</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="3" type="1">
+<li><strong>Cuidar la extensión</strong>: Un cuestionario demasiado largo genera fatiga y respuestas de mala calidad.<br>
+Regla orientativa: 15-25 minutos máximo para encuestas presenciales; 10-15 para online.</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="4" type="1">
+<li><strong>Orden lógico</strong>: De lo general a lo particular,<br>
+de lo menos sensible a lo más sensible. Agrupar por temas.</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="5" type="1">
+<li><strong>Incluir instrucciones claras</strong>: Para el encuestador (si es presencial) y para el encuestado (si es autoadministrado).</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="6" type="1">
+<li><strong>Considerar la población objetivo</strong>: Adaptar lenguaje, formato y medio de aplicación.<br>
+No es lo mismo encuestar a adolescentes que a adultos mayores.</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="7" type="1">
+<li><strong>Pre-codificar las respuestas</strong>: Asignar códigos numéricos a cada alternativa desde el diseño.<br>
+Esto facilita la digitación y el análisis posterior.</li>
+</ol>
+</div>
+</section>
+<section id="reflexiones-finales" class="slide level2">
+<h2>Reflexiones finales</h2>
+<p><em>¿Qué tipos de preguntas son las más adecuadas para los cuestionarios de sus proyectos de investigación?</em></p>
+<p><em>¿Cómo hablan sus sujetos de estudio? ¿cómo garantizar que comprendan las preguntas?</em></p>
+<p><em>¿Se ha medido antes lo que quieren medir?</em> <em>¿quieren comparar su medición con otras? </em> <em>¿quieren innovar? ¿por qué?</em> <em>¿Aplicarán la encuesta en formato papel o online? ¿será autoadministrada?</em></p>
+</section>
+<section id="ejercicio-en-clase" class="slide level2">
+<h2>Ejercicio en clase</h2>
+<p><a href="https://docs.google.com/document/d/1P85EGeC879MC8GyTC7qb15wqrUGq64CP81W44IaMzFA/edit?usp=sharing">link</a></p>
+</section>
+<section id="ejemplo-de-la-operacionalización-al-cuestionario" class="slide level2">
+<h2>Ejemplo: De la Operacionalización al cuestionario</h2>
+<p><strong>Variable</strong>: Participación política</p>
+<table class="caption-top" style="width:100%;">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Dimensión</strong></th>
+<th><strong>Indicador</strong></th>
+<th><strong>Pregunta</strong></th>
+<th><strong>Tipo (contenido)</strong></th>
+<th><strong>Tipo (respuesta)</strong></th>
+<th><strong>Categorías</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Participación convencional</strong></td>
+<td>Voto en última elección</td>
+<td>¿Votó en las últimas elecciones presidenciales?</td>
+<td>Hecho</td>
+<td>Cerrada</td>
+<td>Dicotómica (Sí / No)</td>
+</tr>
+<tr class="even">
+<td><strong>Participación convencional</strong></td>
+<td>Militancia partidaria</td>
+<td>¿Es usted militante de algún partido político?</td>
+<td>Hecho</td>
+<td>Cerrada</td>
+<td>Dicotómica (Sí / No)</td>
+</tr>
+<tr class="odd">
+<td><strong>Participación no convencional</strong></td>
+<td>Asistencia a marchas</td>
+<td>¿Cuántas veces asistió a marchas o protestas en los últimos 12 meses?</td>
+<td>Hecho</td>
+<td>Cerrada</td>
+<td>De razón (número exacto)</td>
+</tr>
+<tr class="even">
+<td><strong>Participación digital</strong></td>
+<td>Activismo en redes</td>
+<td>¿Con qué frecuencia comparte contenido político en redes sociales?</td>
+<td>Conducta</td>
+<td>Cerrada</td>
+<td>Ordinal (Nunca / Rara vez / A veces / Frecuentemente / Siempre)</td>
+</tr>
+<tr class="odd">
+<td><strong>Actitud hacia la política</strong></td>
+<td>Interés político</td>
+<td>¿Qué tan interesado/a diría usted que está en la política?</td>
+<td>Actitud</td>
+<td>Cerrada</td>
+<td>Ordinal (Nada / Poco / Algo / Bastante / Mucho)</td>
+</tr>
+<tr class="even">
+<td><strong>Opinión</strong></td>
+<td>Eficacia política subjetiva</td>
+<td>¿Qué tan de acuerdo está con: “Personas como yo no tienen influencia en lo que hace el gobierno”?</td>
+<td>Actitud / Opinión</td>
+<td>Cerrada</td>
+<td>Likert 5 puntos</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="síntesis-de-la-clase" class="slide level2">
+<h2>Síntesis de la clase</h2>
+<p>Lo esencial:</p>
+<ul>
+<li>Las fuentes de información cuantitativa son diversas: encuestas, registros administrativos,<br>
+censos, datos digitales. La elección depende de la pregunta de investigación.</li>
+<li>La encuesta, a través del cuestionario, es el instrumento más utilizado y flexible.</li>
+<li>Las preguntas se clasifican por su contenido (hechos, aptitudes, actitudes, opiniones),<br>
+por su tipo de respuesta (abiertas, cerradas, mixtas) y por sus categorías de respuesta<br>
+(dicotómicas, nominales, ordinales, intervalares, de razón).</li>
+<li>El fraseo es determinante: preguntas mal redactadas producen datos inservibles.<br>
+La cristalización nos recuerda que medir no es un acto neutro: preguntar modifica la realidad.</li>
+<li>El cuestionario es la traducción empírica de la operacionalización.<br>
+Sin una buena tabla de operacionalización, no hay buen cuestionario.</li>
+</ul>
+</section>
+<section id="para-el-trabajo-entrega-intermedia" class="slide level2">
+<h2>Para el trabajo (Entrega intermedia)</h2>
+<blockquote>
+<p>Entrega Intermedia (26 de mayo) El cuestionario debe estar incorporado en la entrega intermedia, junto con el problema de investigación, marco teórico, diseño de investigación y operacionalización.</p>
+</blockquote>
+<p>Tarea:</p>
+<ul>
+<li>Realizar la tabla de operacionalización de su investigación grupal.</li>
+<li>Redactar al menos 5 preguntas del cuestionario siguiendo los criterios vistos en clase:<br>
+una de hechos, una de actitud (tipo Likert), una dicotómica, una con categorías ordinales y una abierta.</li>
+<li>Identificar posibles problemas de fraseo y corregirlos.</li>
+</ul>
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="clase_09_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="clase_09_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="clase_09_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="clase_09_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="clase_09_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="clase_09_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="clase_09_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="clase_09_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="clase_09_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="clase_09_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
