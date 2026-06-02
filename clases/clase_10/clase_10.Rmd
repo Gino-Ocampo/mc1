@@ -1,6 +1,6 @@
 ---
 title: "Clase 10"
-author: "Sebastián Muñoz"
+author: "Gino Ocampo & Sebastián Muñoz"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -26,6 +26,7 @@ style_duo_accent(
 
 ## En esta clase
 
+### 0. Revisión del Entrega intermedia
 
 ### 1. Repaso
 
@@ -35,6 +36,504 @@ style_duo_accent(
 
 ### 4. Tidyverse
 
+
+---
+class: inverse, center, middle
+
+# 0. Revisión entrega intermedia
+
+---
+Los dos ítems con menor desempeño del curso son Operacionalización  y Cuestionario.
+
+Los 3 errores más comunes fueron:
+
+  **Confusión causa-asociación** : aparece en la formulación (verbos "impacto", "efecto"), en los objetivos (verbos "comprender", "indagar"), en las hipótesis (causalidad disfrazada) y en los cuestionarios (preguntas que asumen relación causal).
+    
+  **Operacionalización sin definiciones teóricas**: todos los grupos entregaron la tabla concepto→dimensiones→indicadores, pero pocos definieron qué es cada cosa. Sin definición conceptual de las dimensiones, la operacionalización se vuelve una taxonomía vacía.
+    
+  **Cuestionarios con errores formales sistemáticos**: categorías no exhaustivas (vacíos en rangos), no mutuamente excluyentes (solapamientos), incoherencia entre enunciado dicotómico y alternativas de frecuencia, conceptos de la investigación  en boca del encuestado, falta de preguntas filtro.
+
+---
+class: inverse, center, middle
+
+# 01. Introducción
+
+---
+
+## 1. Introducción — Lo que funcionó
+
+ 
+- En general, todos los grupos lograron **resumir** las partes centrales del trabajo.
+- La estructura introductoria está internalizada: presentar problema, sujeto, objetivos.
+- Algunos grupos tienen buena claridad y escritura fluida.
+ 
+
+---
+
+## 1. Introducción — Errores transversales
+
+ 
+### Falta de respaldo empírico
+- Premisas planteadas sin citas, datos ni referencias.
+- *"Aunque sea de público conocimiento, deben citar para dar respaldo a la premisa"*.
+ 
+
+ 
+### Registro de escritura
+- Lenguaje **coloquial** o **personal** ("nuestro", "creemos") cuando debe ser **académico e impersonal**.
+- Frases enredadas, oraciones subordinadas demasiado largas.
+ 
+
+ 
+### Decir vs. hacer
+- *"Esto deben hacerlo, no escribirlo"*: explicitar la metodología en la intro en vez de simplemente desarrollarla.
+ 
+
+---
+
+## 1. Introducción — Qué reforzar
+
+ 
+1. **Citar siempre** que se afirma algo sobre la realidad (datos, autores, noticias).
+2. **Voz académica impersonal**: "se analiza", "la investigación se centra en".
+3. **Datos duros** (cifras, porcentajes, intervalos temporales) robustecen la introducción.
+4. Ojo con el vocabulario: **causalidad** (impacto, efecto, influencia) vs. **asociación** (relación, vínculo).
+ 
+
+---
+class: inverse, center, middle
+
+# 02. Formulación 
+
+---
+
+## 2. Formulación — Errores transversales (1/2)
+
+ 
+### Lógica de problematización (Lemieux)
+- No se cumple la secuencia: sentido común → inferencia → ruptura → pregunta.
+- Saltan directamente a la pregunta sin construir la tensión.
+ 
+
+ 
+### Falta de dimensión temporal
+- **El error más repetido**: la pregunta no especifica el *cuándo*.
+- Recuerden los 5 elementos: **qué, conceptos, a quiénes, cuándo, dónde**.
+ 
+
+---
+
+## 2. Formulación — Errores transversales (2/2)
+
+ 
+### Lenguaje hipotético o cualitativo
+- *"Podríamos detectar..."*, *"parecía..."*: resta fuerza al planteamiento.
+- verbos **analizar/conocer/establecer** son adecuados.
+ 
+
+ 
+### Confusión causa-asociación
+- *"Impacto", "efecto", "influencia"* implican causalidad.
+- Sus diseños son **transversales y asociativos** → no pueden establecer causas.
+ 
+
+---
+
+## 2. Formulación — Qué reforzar
+
+ 
+1. Pregunta debe contener **5 elementos definidos**: objeto, conceptos/variables, sujetos, **tiempo** y espacio.
+2. Aplicar **bien la lógica de Lemieux**: presentar premisa, problematizarla con datos, llegar a la pregunta.
+3. Reemplazar verbos causales por **verbos de asociación** (relacionar, asociar, vincular).
+4. Pregunta clara y concisa: evitar oraciones subordinadas excesivas.
+ 
+
+---
+class: inverse, center, middle
+
+# 03. Objetivos y Relevancia 
+
+---
+
+## 3. Objetivos — Errores transversales
+
+ 
+### Verbos inapropiados
+- **Comprender** → propio de la investigación cualitativa.
+- **Analizar, conocer, identificar, explorar, establecer, caracterizar, medir** → cuantitativos.
+ 
+
+ 
+### OE que exceden el OG
+- Plantean objetivos específicos que **agregan variables nuevas** no contempladas en el OG.
+- Los OE deben **DESAGREGAR** el OG, no excederlo.
+ 
+
+ 
+### Mezcla de varios objetivos en uno
+- Un OE no puede contener dos operaciones distintas.
+- Separar: si hay dos variables o dos operaciones, son dos OE.
+ 
+---
+
+## 3. Objetivos — Qué reforzar
+
+ 
+1. **OG = traducción de la pregunta** en forma de objetivo (más amplio).
+2. **OE = desagregación del OG** (más específicos, no más amplios).
+3. Verbos en infinitivo: **analizar, identificar, caracterizar, determinar, examinar**.
+4. **Una variable por OE** (o una operación por OE).
+5. Especificar siempre **sujeto y temporalidad** en cada objetivo.
+ 
+---
+
+## 3. Relevancia — Errores transversales
+
+ 
+- Confunden los **3 tipos de relevancia**:
+  - **Teórica**: aporte al conocimiento (no "académica").
+  - **Práctica**: aporte a la intervención social.
+  - **Metodológica**: aporte instrumental/técnico.
+ 
+
+ 
+- *"Levantar datos"* no es un aporte metodológico por sí solo.
+- *"Concientizar"* o *"promover"* no son relevancias, son activismo.
+- El sujeto específico (estudiantes UAH) **no vuelve automáticamente relevante** la investigación.
+ 
+---
+class: inverse, center, middle
+
+# 04. Antecedentes e Hipótesis 
+
+---
+
+## 4. Antecedentes — Errores transversales
+
+ 
+### Listado de autores, no discusión teórica
+- Resumir lo que dice cada texto **por separado** ≠ marco teórico.
+- La pregunta guía debe ser: **¿qué dicen estos autores en conjunto sobre el problema?**
+ 
+
+ 
+### Estrategias no usadas
+- Recordar opciones para organizar: **por enfoques, por variables explicativas, por dimensiones, por linaje teórico**.
+ 
+
+ 
+### Errores de citación
+- No citar conceptos clave en formato **APA**.
+- Citar dos veces: apellido + autor entre paréntesis.
+- Omitir referencias cuando se afirma algo.
+ 
+---
+## 4. Antecedentes — Definición de conceptos
+
+ 
+**Problema más serio**: no definen los conceptos centrales que se van a operacionalizar después.
+ 
+
+ 
+- Si la investigación habla de *"autoritarismo"*, *"bienestar psicosocial"*, *"discurso político"* o *"estratificación social"* → **deben tener definición conceptual al final del marco teórico**.
+- Sin definición conceptual no se puede operacionalizar.
+- Recordar: paradigma → teoría general → teoría sustantiva → variables.
+ 
+---
+
+## 4. Hipótesis — Errores transversales
+
+ 
+### Causalidad enmascarada
+- Verbos como **producirá, favorecerá, generará, afectará** son causales.
+- Diseño transversal y asociativo → solo permite afirmar **asociación**, no causa.
+ 
+
+ 
+### Múltiples fenómenos en una hipótesis
+- Una hipótesis con 4 elementos distintos = 4 hipótesis no formuladas.
+- Separar cada relación en su propia hipótesis.
+ 
+
+ 
+### Hipótesis no refutables
+- Si basta un solo caso para confirmarla, la hipótesis no sirve.
+- Debe poder **ser refutada empíricamente**.
+ 
+---
+class: inverse, center, middle
+
+# 05. Metodología 
+
+---
+
+## 5. Metodología — Errores transversales
+
+ 
+Item con mejor desempeño en general, pero faltan los **4 componentes** que se piden:
+ 
+
+ 
+| Componente | Error frecuente |
+|------------|-----------------|
+| Estrategia | Lo confunden con "qué se va a hacer" |
+| Tipo según objetivos | Lo omiten o lo confunden con temporalidad |
+| Temporalidad | A veces sin especificar transversal/longitudinal |
+| Grado de experimentación | **El más omitido** (no experimental) |
+ 
+---
+
+## 5. Metodología — Qué reforzar
+
+ 
+1. **Cada uno de los 4 componentes debe estar explícito y justificado**.
+2. Redacción clara: una decisión metodológica = un párrafo o sección.
+3. Evitar términos que confunden:
+   - *"Dependencia"* → suena causal.
+   - *"Establecer relación"* ≠ *"establecer dependencia"*.
+4. Coherencia interna: si su pregunta es asociativa, todo el diseño debe serlo.
+
+---
+class: inverse, center, middle
+
+# 06. Operacionalización 
+
+---
+
+## 6. Operacionalización — El item más débil del curso
+
+ 
+**Promedio: 23,7 / 40 (59%)** — Aquí está el foco principal.
+ 
+
+ 
+### El error más generalizado
+**No se definen los conceptos ni las dimensiones**.
+ 
+
+ 
+- Una tabla con concepto → dimensiones → indicadores **NO es operacionalización**.
+- Faltan los textos que definen **qué es cada cosa** y **por qué pertenece allí**.
+ 
+---
+
+## 6. Operacionalización — Errores típicos
+
+ 
+### Tabla sin definiciones
+- *"No están las definiciones de las dimensiones, ni de las subdimensiones"*.
+ 
+
+ 
+### Operacionalización sin fuente
+- Si tomaron un esquema de otro autor → **deben citarlo**.
+- Si lo construyeron ellos → deben **justificarlo teóricamente**.
+ 
+
+ 
+### Indicadores que no se conectan al concepto
+- Indicadores sueltos que no derivan de las dimensiones.
+- Indicadores repetidos en distintas dimensiones.
+ 
+---
+ 
+### Conceptos diferentes mezclados
+- A veces se opera con la **consecuencia** del fenómeno como si fuera el fenómeno.
+ 
+---
+
+## 6. Operacionalización — Qué reforzar
+
+ 
+**Recordar la estructura completa de Sautú**:
+ 
+
+ 
+1. **Definición teórica** del concepto (en el marco teórico).
+2. **Definición nominal** de la variable (al final del marco teórico).
+3. **Desagregación** en dimensiones y subdimensiones (con definiciones).
+4. **Definición operacional**: indicadores empíricos observables.
+5. **Conexión lógica** entre cada nivel.
+ 
+
+ 
+**Cada elemento de la tabla debe ir acompañado de un párrafo explicativo.**
+ 
+---
+class: inverse, center, middle
+
+# 07. Cuestionario 
+
+---
+
+## 7. Cuestionario — Promedio: 22,8 / 40 (57%)
+
+ 
+**El item con menor logro del curso.**
+ 
+ 
+Dos grupos obtuvieron **0/5 en preguntas sociodemográficas** (no las incluyeron).
+ 
+---
+
+## 7. Cuestionario — Errores en categorías
+
+ 
+### Categorías no exhaustivas
+- Vacíos en rangos: *"si alguien se demora 40 min, ¿qué alternativa elige?"*.
+- Falta opción *"Otro: ¿cuál? \_\_\_"*.
+ 
+
+ 
+### Categorías no mutuamente excluyentes
+- Solapamiento entre opciones (ej: rapidez y cercanía).
+- Una persona razonablemente podría marcar dos.
+ 
+
+ 
+### Niveles que mezclan dimensiones distintas
+- Una pregunta mezcla frecuencia, cantidad y tipo en las mismas alternativas.
+ 
+---
+
+## 7. Cuestionario — Errores en formulación
+
+ 
+### Pregunta dicotómica con escala de frecuencia (¡muy común!)
+- Enunciado: *"¿Has sentido X?"* → respuesta esperada sí/no.
+- Pero las alternativas son: *Nunca, A veces, Frecuentemente, Siempre*.
+- **Cambiar enunciado** o **cambiar alternativas**, no mezclar lógicas.
+ 
+
+ 
+### Varios fenómenos en una sola pregunta
+- *"¿Has participado en activismo, voluntariado, marchas o trabajo comunitario?"* = 4 preguntas en una.
+- Separar en ítems distintos o usar **pregunta matriz**.
+ 
+---
+
+## 7. Cuestionario — Errores conceptuales
+
+ 
+### Sexo vs. género
+- **Sexo**: hombre / mujer.
+- **Género**: masculino / femenino / no binario / etc.
+ 
+
+ 
+### Conceptos complejos sin traducción
+- *"Activismo", "alienación", "vulnerabilidad", "desigualdades territoriales"*: conceptos del investigador, no del encuestado.
+ 
+
+ 
+### Preguntas de opinión sobre otros / hipotéticas
+- *"¿Crees que los estudiantes de comunas periféricas...?"* mide opinión, no experiencia.
+- *"¿Preferirías estudiar en otra universidad?"* no aporta datos.
+ 
+---
+
+## 7. Cuestionario — Sesgos
+
+ 
+### Deseabilidad social
+- Preguntas con carga emotiva que orientan la respuesta.
+- *"¿Considera importante...?"* → casi todos dirán sí.
+ 
+
+ 
+### Aquiescencia
+- Escalas asimétricas sin punto medio.
+- Enunciados que sugieren la respuesta esperada.
+ 
+
+ 
+### Cristalización
+- Definir conceptos dentro de la pregunta orienta al encuestado.
+- *"Quitar esto, induce cristalización"*.
+ 
+---
+
+## 7. Cuestionario — Falta de preguntas filtro
+
+ 
+**Error sistemático**: preguntar por una práctica sin verificar primero si la persona la realiza.
+ 
+
+ 
+Ejemplos:
+- Preguntar por frecuencia en redes sociales **sin filtrar** si usa redes.
+- Preguntar por apuestas sin filtrar si apuesta.
+- Preguntar por transporte público sin filtrar si lo usa.
+ 
+
+ 
+**Solución**: pregunta filtro dicotómica + saltos lógicos en el cuestionario.
+ 
+---
+
+## 7. Cuestionario — Qué reforzar (1/2)
+
+ 
+1. **Categorías exhaustivas**: que cualquier respuesta posible quepa en alguna alternativa.
+2. **Categorías excluyentes**: que ninguna respuesta caiga en dos alternativas.
+3. **Coherencia enunciado-alternativas**: dicotómica con sí/no, frecuencia con escala de frecuencia.
+4. **Una variable por pregunta**: nunca empacar varios fenómenos.
+ 
+---
+
+## 7. Cuestionario — Qué reforzar (2/2)
+
+ 
+5. **Preguntas filtro** antes de batería de preguntas específicas.
+6. **Lenguaje del encuestado**, no del investigador. Conceptos simples.
+7. **Anclar en experiencia propia** del encuestado, no en opinión sobre otros.
+8. **Escalas simétricas** con polos equivalentes (y considerar punto medio).
+9. **Sociodemográficas obligatorias**: edad, sexo, género, comuna, etc.
+
+--- 
+class: inverse, center, middle
+
+# Síntesis final 
+
+---
+
+## Los 3 lugares comunes más importantes
+
+ 
+### 1. Confusión causa-asociación
+Aparece en intro, formulación, objetivos e hipótesis.
+
+**Solución**: revisar todos los verbos del proyecto. Quitar: *impacto, efecto, influencia, producir, generar, causar*.
+ 
+
+ 
+### 2. Operacionalización sin definiciones
+Tablas vacías de teoría.
+
+**Solución**: definir cada concepto, cada dimensión y cada subdimensión por escrito antes de la tabla.
+ 
+
+ 
+### 3. Cuestionarios con errores formales
+Categorías no exhaustivas/excluyentes, incoherencias enunciado-alternativas, falta filtros.
+
+**Solución**: revisar pregunta por pregunta usando los criterios de la clase 7-8.
+ 
+---
+
+## Recomendaciones para la entrega final
+
+ 
+1. **Coherencia interna**: que pregunta → objetivos → hipótesis → operacionalización → cuestionario hablen de lo mismo.
+2. **Citas APA correctas** en todo el documento.
+3. **Definir conceptos** antes de operacionalizarlos.
+4. **Cuestionario revisado** con criterios del curso (clases 7 y 8).
+5. **Lenguaje académico e impersonal** en todo el texto.
+ 
+
+ 
+### Recuerden: el cuestionario es lo que van a aplicar. Cada error allí compromete los datos que van a analizar después.
+ 
 
 ---
 class: inverse, center, middle
