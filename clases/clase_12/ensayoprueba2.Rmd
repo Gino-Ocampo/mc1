@@ -1,6 +1,6 @@
 ---
 title: "Ensayo Prueba 2"
-author: "Sebastián Muñoz"
+author: "Gino Ocampo & Sebastián Muñoz"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -478,3 +478,147 @@ style_duo_accent(
 **Explicación:** “Frasear con cuidado” evita que una opción sea percibida como más atractiva por razones sociales, lo que minimiza el sesgo de **deseabilidad social**.
 
 ---
+
+### Pregunta 17
+**Para importar una base de datos en formato .dta (Stata) en R, ¿qué paquete y función debería utilizar?**
+
+1.	`read.xlsx()` del paquete openxlsx.
+2.	`read_csv()` del paquete readr.
+3.	`read_dta()` del paquete haven. 
+4.	`read_dta()` de R base.
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Pregunta 17
+**Para importar una base de datos en formato .dta (Stata) en R, ¿qué paquete y función debería utilizar?**
+
+1.	`read.xlsx()` del paquete openxlsx.
+2.	`read_csv()` del paquete readr.
+3.	`read_dta()` del paquete haven. **(Correcta)**
+4.	`read_dta()` de R base.
+
+**Puntaje:** 2 puntos  
+
+
+**Explicación**: El paquete haven permite leer archivos provenientes de otros softwares estadísticos: `read_dta()` para Stata y `read_spss()` para SPSS. `read.xlsx()` lee Excel, `read_csv()` lee texto plano separado por comas y `readRDS()` lee el formato nativo de R.
+Puntaje: 2 puntos
+
+---
+
+### Pregunta 18
+**Observe el siguiente código:**
+`base.covid <- readRDS(`
+  `file = "../Fuentes/base_covid_sample.RDS"`
+`)`
+
+De acuerdo con los contenidos revisados, ¿qué función cumple el argumento `file` en este código?
+1. Especificar el nombre que tendrá el objeto en el environment
+2. Indicar la ruta y el nombre del archivo que se desea importar
+3. Definir cuántas filas de la base de datos serán cargadas
+4. Determinar si la primera fila del archivo contiene nombres de columnas
+
+---
+
+### Pregunta 18
+**Observe el siguiente código:**
+`base.covid <- readRDS(`
+  `file = "../Fuentes/base_covid_sample.RDS"`
+`)`
+
+De acuerdo con los contenidos revisados, ¿qué función cumple el argumento `file` en este código?
+1. Especificar el nombre que tendrá el objeto en el environment
+2. Indicar la ruta y el nombre del archivo que se desea importar **(correcta)**
+3. Definir cuántas filas de la base de datos serán cargadas
+4. Determinar si la primera fila del archivo contiene nombres de columnas
+
+**Explicación**: La función `readRDS()` sirve para importar archivos, para ello se debe especificar la ruta y el nombre con extensión `.RDS` con el argumento file.
+
+---
+
+### Pregunta 19
+**Indique si las siguientes afirmaciones son verdaderas (V) o falsas (F)**:
+
+I. La función `dim(base)` permite conocer la cantidad de filas y columnas de una base de datos.
+
+II. La función `table(base$variable)` permite identificar las categorías únicas de una variable, pero no sus frecuencias.
+
+III. La función `names(base)` permite visualizar los nombres de las columnas de un DataFrame.
+
+IV. La función `summary(base)` entrega un conjunto resumen de estadísticas descriptivas de las variables contenidas en la base.
+
+V. La función `unique(base$variable)` permite identificar los valores o categorías distintas presentes en una variable.
+
+1. V – F – V – V – V
+2. V – V – F – V – V
+3. F – F – V – V – V
+4. V – F – V – F – V
+
+---
+
+### Pregunta 19
+**Indique si las siguientes afirmaciones son verdaderas (V) o falsas (F)**:
+
+I. La función `dim(base)` permite conocer la cantidad de filas y columnas de una base de datos.
+
+II. La función `table(base$variable)` permite identificar las categorías únicas de una variable, pero no sus frecuencias.
+
+III. La función `names(base)` permite visualizar los nombres de las columnas de un DataFrame.
+
+IV. La función `summary(base)` entrega un conjunto resumen de estadísticas descriptivas de las variables contenidas en la base.
+
+V. La función `unique(base$variable)` permite identificar los valores o categorías distintas presentes en una variable.
+
+1. V – F – V – V – V **(correcta)**
+2. V – V – F – V – V 
+3. F – F – V – V – V
+4. V – F – V – F – V
+
+**Explicación**: 
+**Afirmación I — Verdadera**. La función `dim(base)` devuelve un vector con dos valores: el primero corresponde a la cantidad de filas (casos u observaciones) y el segundo a la cantidad de columnas (variables) del DataFrame.
+
+**Afirmación II — Falsa**. La función `table(base$variable)` sí entrega las frecuencias de cada categoría de la variable; de hecho, ese es precisamente su propósito principal.La función que permite identificar únicamente las categorías distintas, sin entregar frecuencias, es `unique()`.
+
+**Afirmación III — Verdadera**. La función `names(base)` devuelve un vector con los nombres de las columnas del DataFrame.
+
+**Afirmación IV — Verdadera**. La función `summary(base)` entrega un resumen estadístico de cada variable de la base: para variables numéricas muestra mínimo, máximo, media, mediana y cuartiles; para variables categóricas, frecuencias por categoría. Por eso se la describe como un conjunto resumen de estadísticas descriptivas.
+
+**Afirmación V — Verdadera**. La función unique`(base$variable)` devuelve los valores distintos presentes en una variable,sin repeticiones y sin conteos. Es útil, por ejemplo, para conocer rápidamente qué categorías están presentes en una variable cualitativa.
+
+---
+
+### Pregunta 19
+
+**Explicación**: 
+**Afirmación I — Verdadera**. La función `dim(base)` devuelve un vector con dos valores: el primero corresponde a la cantidad de filas (casos u observaciones) y el segundo a la cantidad de columnas (variables) del DataFrame.
+
+**Afirmación II — Falsa**. La función `table(base$variable)` sí entrega las frecuencias de cada categoría de la variable; de hecho, ese es precisamente su propósito principal.La función que permite identificar únicamente las categorías distintas, sin entregar frecuencias, es `unique()`.
+
+**Afirmación III — Verdadera**. La función `names(base)` devuelve un vector con los nombres de las columnas del DataFrame.
+
+**Afirmación IV — Verdadera**. La función `summary(base)` entrega un resumen estadístico de cada variable de la base: para variables numéricas muestra mínimo, máximo, media, mediana y cuartiles; para variables categóricas, frecuencias por categoría. Por eso se la describe como un conjunto resumen de estadísticas descriptivas.
+
+**Afirmación V — Verdadera**. La función unique`(base$variable)` devuelve los valores distintos presentes en una variable,sin repeticiones y sin conteos. Es útil, por ejemplo, para conocer rápidamente qué categorías están presentes en una variable cualitativa.
+
+---
+
+### Pregunta 20
+**¿Qué función cumplen los operadores lógicos (| & == >= <=) en el contexto de la manipulación de datos con Tidyverse?**
+
+1. Permiten especificar condiciones que deben cumplir los datos para ser seleccionados o filtrados
+2. Permiten importar bases de datos desde distintos formatos de archivo
+3. Permiten transformar automáticamente variables categóricas en variables numéricas
+4. Permiten visualizar resúmenes estadísticos de una base de datos
+
+---
+
+### Pregunta 20
+**¿Qué función cumplen los operadores lógicos (| & == >= <=) en el contexto de la manipulación de datos con Tidyverse?**
+
+1. Permiten especificar condiciones que deben cumplir los datos para ser seleccionados o filtrados **(correcta)**
+2. Permiten importar bases de datos desde distintos formatos de archivo
+3. Permiten transformar automáticamente variables categóricas en variables numéricas
+4. Permiten visualizar resúmenes estadísticos de una base de datos
+
+**Explicación**: Cada operador permite construir un criterio lógico distinto: == evalúa igualdad (ej. `sexo == "F"`), >= y <= establecen umbrales numéricos (ej. `edad >= 65`), & exige que se cumplan dos condiciones simultáneamente (AND) y | permite que se cumpla al menos una (OR). El resultado de estas expresiones es siempre un valor lógico (TRUE o FALSE) que filter() utiliza para decidir qué filas conservar en la base de datos.
