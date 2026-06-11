@@ -81,6 +81,14 @@ Nota: En general las ayundantías son online, a excepción de que se coordine co
 
 ---
 
+### Asistencia Ayudantías
+
+- En este [`[Excel]`](https://docs.google.com/spreadsheets/d/1_yJVNOfVF-52ZCtm2ZVb2-eD0mmlNMkaJqUrI2WU2rI/edit?usp=sharing) puedes ver tu asistencia a las ayudantías del curso. 
+
+- En este apartado podrás encontrar los reportes de asistencia de cada fecha: [`26-3`](ayudantias/ASISTENCIA 2026/3-26-26.csv) . [`02-4`](ayudantias/ASISTENCIA 2026/4-02-26.csv) . [`08-4`](ayudantias/ASISTENCIA 2026/4-08-26.csv) . [`15-4`](ayudantias/ASISTENCIA 2026/4-15-26.csv) . [`13-5`](ayudantias/ASISTENCIA 2026/5-13-26.csv) . [`10-6`](ayudantias/ASISTENCIA 2026/6-10-26 2.csv)
+
+---
+
 ### Horarios ayudantías
 
 - Aquí puedes votar por el horario de ayudantía que más te acomode [`[Forms]`](https://docs.google.com/forms/d/e/1FAIpQLSfpoReQE0C0GOog4_ClBoYK7rpViSOoIaWDLetdwuRccnIx1A/viewform?usp=sharing&ouid=107472191361985780533)
